@@ -1,52 +1,45 @@
 # Querdenk-Modell
 
-Ziel: einem Open-Source-LLM echtes Out-of-the-Box-Denken antrainieren. Das Modell soll **originell und trotzdem brauchbar** antworten.
+Ziel: einem Open-Source-LLM **die Methode** des Out-of-the-Box-Denkens beibringen, sodass es in beliebigen Bereichen selbst originelle, funktionierende Ideen erfindet, z. B. Geschäftsideen.
 
-- Basismodell: `Qwen3-8B` (4-bit, Unsloth). Gewechselt wird in `config.yaml`.
-- Training: Kaggle (kostenlose GPU)
-- Entwicklung und Daten: lokal / Claude Code
-- Nutzung danach: lokal als GGUF (Ollama / LM Studio)
+**Kernprinzip:** Das Modell lernt den *Weg*, nicht fertige Antworten. Business kommt im Training **nie** vor, nur im Test. Wird es dort trotzdem origineller, hat es Querdenken gelernt und nicht auswendig.
+
+- Basismodell: `Qwen3-14B` (4-bit, Unsloth). Bei Speicherproblemen in `config.yaml` auf 8B wechseln.
+- Training: Kaggle, GPU T4 x2
 
 ## Pipeline
 
-| Stufe | Notebook | Daten | Zweck |
-|---|---|---|---|
-| 1 SFT | `notebooks/01_sft.ipynb` | `data/sft.jsonl` | Denkmuster lernen: naheliegend → Perspektivwechsel → unkonventionell |
-| 2 DPO | `notebooks/02_dpo.ipynb` | `data/dpo.jsonl` | Kreativ-gültig bevorzugen statt konventionell oder kreativ-falsch |
-| 3 Eval | `notebooks/03_eval.ipynb` | `eval/eval_prompts.jsonl` | Originalität ↑ bei gleicher Gültigkeit? |
+| Stufe | Notebook | Daten | Was passiert | Dauer (T4) |
+|---|---|---|---|---|
+| 1 Prozess lernen | `01_sft.ipynb` | `data/sft.jsonl` + `sft_val.jsonl` | Denkprozess imitieren, Prüfset gegen Auswendiglernen | ~1,5–2,5 h |
+| 2 Selbst erfinden | `02_grpo.ipynb` | `data/grpo_prompts.jsonl` (nur Fragen) | Reinforcement Learning: Belohnung für originell **und** funktionsfähig | ~8–10 h |
+| 3 Transfer-Test | `03_eval.ipynb` | `eval/` | Basis vs. trainiert auf allgemeinen und Business-Fragen, GGUF-Export | ~1–2 h |
 
-## Datenformate
-
-**sft.jsonl**
-```json
-{"messages": [{"role":"user","content":"..."},{"role":"assistant","content":"Naheliegend: ...\nPerspektivwechsel: ...\nUnkonventionelle Lösung: ..."}]}
+## Der Denkprozess (Antwortformat)
 ```
-
-**dpo.jsonl**
-```json
-{"prompt": "...", "chosen": "kreativ + funktioniert", "rejected": "konventionell ODER kreativ aber falsch"}
+Annahmen: 1) … 2) … 3) …
+Werkzeug – <Name>: <Anwendung> → Rohidee: …   (3–4×)
+Aussortiert: <was zu naheliegend/unbrauchbar ist und warum>
+Beste Idee: <ausgearbeitet, warum es funktioniert, ehrlicher Haken>
 ```
+Werkzeuge: Umkehrung · Fremde Domäne · Einschränkung weglassen · Einschränkung hinzufügen · Perspektivwechsel · Kombination · Skalierung · Zweckentfremdung · Zeitverschiebung
 
-Seed-Daten liegen bei. Mehr Daten erzeugt Claude Code nach `DATA_SPEC.md`. Prüfen mit:
-```bash
-python scripts/validate_data.py
-```
+## Belohnung in Stufe 2
+- **creative_valid:** Gültigkeit (Judge-Modell auf GPU 1) × Originalität (Abstand zur naheliegenden Lösung). Ohne Gültigkeit gibt es keine Punkte.
+- **diversity:** anders als die übrigen Ideen derselben Runde
+- **format** und **length:** Denkprozess einhalten, nicht ausufern
 
-## Ablauf
+## Daten
+| Datei | Inhalt |
+|---|---|
+| `data/sft.jsonl` / `sft_val.jsonl` | 594 / 66 Denkspuren aus 11 Themenfeldern, ohne Business |
+| `data/grpo_prompts.jsonl` | 427 Fragen + naheliegende Lösung als Referenz |
+| `eval/eval_prompts.jsonl` | 15 allgemeine + 10 Business-Testfragen |
+| `eval/business_holdout.jsonl` | 525 Business-Fragen, nur für Tests |
 
-1. Repo auf GitHub pushen (öffentlich oder privat, siehe unten).
-2. Auf Kaggle ein neues Notebook anlegen: **Settings → Accelerator: GPU T4 x2**, **Internet: On**.
-3. Inhalt von `notebooks/01_sft.ipynb` importieren (File → Import Notebook). In Zelle 1 `REPO_URL` setzen.
-4. Laufen lassen. Der Adapter landet in `/kaggle/working/adapter_sft`. Über **Save Version** sichern.
-5. `02_dpo.ipynb` lädt den SFT-Adapter als Kaggle-Input und trainiert weiter.
-6. `03_eval.ipynb` vergleicht Basis- und trainiertes Modell und exportiert GGUF.
+Prüfen: `python scripts/validate_data.py`
 
-Private Repos: GitHub-Token als Kaggle-Secret `GITHUB_TOKEN` anlegen (Add-ons → Secrets). Die Notebooks nutzen es automatisch.
-
-## Lokal (MacBook)
-
-```bash
-pip install -r requirements-mac.txt
-python scripts/score_novelty.py --base eval/out_base.jsonl --tuned eval/out_tuned.jsonl
-ollama create querdenker -f Modelfile   # nach GGUF-Export
-```
+## Kaggle-Ablauf
+1. Notebook importieren (File → Import Notebook), **GPU T4 x2**, **Internet an**
+2. Lange Läufe über **Save Version → Save & Run All (Commit)**: Sie laufen im Hintergrund, der Browser darf zu sein, und die Ergebnisse landen automatisch im Output.
+3. Für Stufe 2 und 3: Output der vorherigen Stufe über **Add Input → Your Work** einbinden.

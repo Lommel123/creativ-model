@@ -1,0 +1,427 @@
+{"prompt": "A man rode into town on Friday. He stayed for three days and left on Friday. How is that possible?", "obvious": "He stayed a whole week, or the story counts days differently."}
+{"prompt": "Two fathers and two sons go fishing. Each of them catches exactly one fish, yet they bring home only three fish. How?", "obvious": "One fish was lost or eaten on the way home."}
+{"prompt": "Ein alter Gartenschlauch ist undicht. Ist der noch zu etwas gut?", "obvious": "Abschneiden und als Bindematerial für Pflanzen nutzen."}
+{"prompt": "Wie organisiert man kostenlose Nachhilfe für Kinder im Viertel, ohne Budget?", "obvious": "Ehrenamtliche Rentner oder Lehramtsstudierende suchen."}
+{"prompt": "Wir fangen Regenwasser vom Dach in einer Zisterne. Wofür außer Gießen lohnt sich das?", "obvious": "Für die Toilettenspülung oder zum Autowaschen."}
+{"prompt": "Ein Vater und sein Sohn haben einen Unfall. Der Vater stirbt, der Sohn wird ins Krankenhaus gebracht. Der Chirurg sagt: 'Ich kann ihn nicht operieren, er ist mein Sohn.' Wie ist das möglich?", "obvious": "Der Chirurg ist ein Stiefvater oder es gibt einen zweiten Vater."}
+{"prompt": "Im Freibad gibt es mittags eine riesige Schlange am Kiosk. Ideen?", "obvious": "Mehr Personal in der Mittagszeit einsetzen."}
+{"prompt": "Wir sollen unsere App barrierefreier machen, haben aber kein Budget für ein Audit. Wie geht das?", "obvious": "Eine Checkliste der WCAG durchgehen."}
+{"prompt": "Wie bringt man einem Kind Lesen bei, ganz ohne Bücher?", "obvious": "Mit Schildern, Verpackungen und Straßennamen im Alltag üben."}
+{"prompt": "Was kann meine Werkzeugwand vom OP-Besteck im Krankenhaus lernen?", "obvious": "Werkzeug ordentlich in Kästen aufbewahren."}
+{"prompt": "Hinter meinem Schreibtisch herrscht ein fürchterlicher Kabelsalat. Was tun?", "obvious": "Kabelbinder und Kabelschlauch."}
+{"prompt": "Was kann ein Vorsorge-Angebot von einem Foodtruck lernen?", "obvious": "Mehr Werbung für Vorsorge machen."}
+{"prompt": "Unsere Bienenvölker finden ab August kaum noch Nahrung, weil in der Agrarlandschaft nichts mehr blüht.", "obvious": "Mit Zuckerwasser zufüttern."}
+{"prompt": "I have cities but no houses, forests but no trees, and water but no fish. What am I?", "obvious": "A desert, or a dream."}
+{"prompt": "Was kann man beim Bau eines Rinderstalls von Termitenhügeln lernen?", "obvious": "Dass Tiere gute Baumeister sind."}
+{"prompt": "Unsere Azubis tun sich schwer mit den Fachbegriffen für die Berufsschule. Wie können wir im Betrieb helfen?", "obvious": "Glossare und Lernkarten ausgeben."}
+{"prompt": "In unserer Praxis ist das Wartezimmer morgens total überfüllt, die Leute stehen im Flur.", "obvious": "Das Wartezimmer vergrößern oder mehr Stühle aufstellen."}
+{"prompt": "Wie betreibt man ein kleines Restaurant ganz ohne Servicepersonal?", "obvious": "Bestellung per Tablet oder QR-Code am Tisch."}
+{"prompt": "Mein Wohnzimmer hat 14 m² und muss gleichzeitig Homeoffice, Esszimmer und Gästezimmer sein. Wie?", "obvious": "Schlafsofa und Klapptisch kaufen."}
+{"prompt": "What has to be broken before you can use it?", "obvious": "A seal on a new product or a rule."}
+{"prompt": "Wie bringt man Kinder dazu, Gemüse zu essen?", "obvious": "Gemüse verstecken oder belohnen."}
+{"prompt": "A telegraph company advertised a job. Applicants waited in a noisy hall full of clicking sounds. One man walked in late, sat down, listened briefly, then walked straight into the manager's office and got the job, although others had been waiting longer. Why?", "obvious": "He knew someone at the company or had better qualifications."}
+{"prompt": "How do we cut office printing costs without banning printing?", "obvious": "Set print quotas and default to double-sided."}
+{"prompt": "Viele neue Mitarbeiter kündigen in den ersten 90 Tagen. Was tun?", "obvious": "Besseres Onboarding und Exit-Interviews führen."}
+{"prompt": "Ein Hotel möchte, dass Gäste ihre Handtücher mehrfach benutzen. Die übliche Umwelt-Karte im Bad wird weitgehend ignoriert.", "obvious": "Die Karte größer und auffälliger gestalten."}
+{"prompt": "Wofür kann ein Kino seine Popcornmaschine am Vormittag nutzen, wenn keine Vorstellung läuft?", "obvious": "Gar nicht – oder Popcorn auf Vorrat machen."}
+{"prompt": "Wir haben in einem Dorf ohne Stromnetz jede Menge leere, durchsichtige PET-Flaschen. Lässt sich damit was Sinnvolles anfangen?", "obvious": "Als Wasserbehälter oder zum Pflanzenziehen verwenden."}
+{"prompt": "Unsere Stadt will Hitzeinseln bekämpfen, aber in vielen Straßen ist unter der Erde kein Platz für Baumwurzeln. Was dann?", "obvious": "Pflanzkübel aufstellen oder helle Pflasterfarbe nutzen."}
+{"prompt": "What could keeping a house tidy learn from software development?", "obvious": "Make a plan and stick to it."}
+{"prompt": "Wie beliefert man eine lange Fußgängerzone mit Waren, wenn dort tagsüber keine Lieferwagen fahren dürfen?", "obvious": "Lieferfenster am frühen Morgen einrichten."}
+{"prompt": "Was kann ich für meinen Umzug von Archäologen lernen?", "obvious": "Gut beschriften und sorgfältig packen."}
+{"prompt": "Our sports club's board meetings last three hours and half of it is routine stuff. Any ideas?", "obvious": "Make a tighter agenda and appoint a timekeeper."}
+{"prompt": "Unsere Firma möchte, dass mehr Leute mit dem Rad kommen, aber es gibt keine Duschen im Gebäude.", "obvious": "Duschen und Umkleiden einbauen lassen."}
+{"prompt": "What can a sports club learn from a public library?", "obvious": "Be open to everyone in the community."}
+{"prompt": "Ein Bauer hat 17 Schafe. Alle bis auf neun sterben. Wie viele Schafe hat er noch?", "obvious": "Acht, weil 17 minus 9 gleich 8 ist."}
+{"prompt": "Mein Sohn (9) vergisst ständig seine Sportsachen für die Schule. Ermahnen bringt nichts.", "obvious": "Abends eine Checkliste mit ihm durchgehen."}
+{"prompt": "Ein Hausmeister steht vor drei Lichtschaltern im Flur. Nur einer davon schaltet eine Glühbirne im geschlossenen Lagerraum. Er darf den Raum nur ein einziges Mal betreten. Wie findet er den richtigen Schalter?", "obvious": "Einen Schalter umlegen, reingehen, und wenn es dunkel ist, raten – das klappt nur mit Glück."}
+{"prompt": "Was kann eine Wohnungsgenossenschaft von Carsharing lernen?", "obvious": "Digitale Verwaltung einführen."}
+{"prompt": "Unser Vereinsheim steht werktags bis 17 Uhr leer. Was könnten wir damit machen?", "obvious": "Für private Feiern vermieten."}
+{"prompt": "Ein Bauarbeiter fällt von einer 20 Meter hohen Leiter und bleibt völlig unverletzt. Er hatte keine Sicherung und nichts hat den Sturz gebremst. Wie?", "obvious": "Er ist auf etwas Weiches gefallen oder hatte einfach Glück."}
+{"prompt": "How do you teach a teenager to budget without lecturing them?", "obvious": "Give them pocket money and a budgeting app."}
+{"prompt": "Wie onboardet man neue Mitarbeiter, wenn niemand Zeit für Mentoring hat?", "obvious": "Ein Onboarding-Handbuch schreiben und einen Plan für die ersten Wochen erstellen."}
+{"prompt": "In unserer Gemäldesammlung staut sich alles vor dem berühmtesten Bild, der Rest wird kaum angeschaut. Wie entzerren?", "obvious": "Absperrband und Aufsicht vor dem Bild."}
+{"prompt": "Was kann ein Kino von Streaming-Diensten lernen?", "obvious": "Bequemere Sitze und online Tickets kaufen."}
+{"prompt": "Unser Freizeitpark ist bei Regenwetter fast leer, selbst wenn es nur nachmittags regnen soll. Was hilft?", "obvious": "Mehr überdachte Attraktionen bauen."}
+{"prompt": "How can a teacher get quiet students to contribute to a class discussion without calling on them?", "obvious": "Use think-pair-share or small group discussions."}
+{"prompt": "Was kann ein Lastenrad-Verleih von einer Bibliothek lernen?", "obvious": "Ordnung und gute Katalogisierung."}
+{"prompt": "What else can a farm do with surplus straw bales?", "obvious": "Use them as animal bedding or sell them as feed filler."}
+{"prompt": "In a race, you overtake the runner in second place. What place are you in now?", "obvious": "First place."}
+{"prompt": "Was kann man beim Hochwasserschutz vom Biber lernen?", "obvious": "Dass Dämme Wasser aufhalten."}
+{"prompt": "Wie holt man Plastikmüll aus einem Fluss, ohne Boote einzusetzen und ohne Schiffsverkehr zu blockieren?", "obvious": "Netze quer über den Fluss spannen oder Müllsammelboote fahren lassen."}
+{"prompt": "Wie kann eine Arztpraxis telefonisch gut erreichbar sein, ohne dass ständig jemand ans Telefon geht?", "obvious": "Mehr Personal fürs Telefon einstellen."}
+{"prompt": "Wie kann eine Hausarztpraxis mehr Patienten versorgen, ohne zusätzliche Ärzte einzustellen?", "obvious": "Termine verkürzen oder länger öffnen."}
+{"prompt": "Ein Mann stößt sein Auto bis zu einem Hotel und weiß sofort, dass er bankrott ist. Warum?", "obvious": "Das Auto ist kaputt und er kann die Reparatur nicht zahlen."}
+{"prompt": "Was kann ein Bürgeramt von einem Fast-Food-Restaurant lernen?", "obvious": "Schneller und freundlicher arbeiten."}
+{"prompt": "Was kann ein Konzerthaus von einer Bäckerei lernen?", "obvious": "Frische Produkte und freundlichen Verkauf."}
+{"prompt": "Our escape room gets lots of first-time players but almost no repeat visits. What can we do?", "obvious": "Build new rooms more often."}
+{"prompt": "Wofür lassen sich alte PVC-Banner von vergangenen Konzerten noch verwenden?", "obvious": "Zu Taschen upcyceln."}
+{"prompt": "In unserem Verein machen seit Jahren dieselben fünf Leute alles und sind langsam ausgebrannt.", "obvious": "Mehr Ehrenamtliche werben und Dankesveranstaltungen organisieren."}
+{"prompt": "Was kann ein Pflegeheim von einem guten Hotel lernen?", "obvious": "Freundlicher Service und schönere Zimmer."}
+{"prompt": "Was kann man mit der Asche aus dem Kaminofen anfangen?", "obvious": "Als Dünger in den Garten streuen."}
+{"prompt": "What else can you do with a box of old Ethernet cables?", "obvious": "Keep them as spares or recycle the copper."}
+{"prompt": "Wie motiviere ich mein Grundschulkind zum Klavierüben, ohne es zu zwingen?", "obvious": "Feste Übungszeiten und eine Belohnung pro Woche."}
+{"prompt": "Was kann man in der eigenen Küche von einer Restaurantküche lernen?", "obvious": "Ordentlicher und sauberer arbeiten."}
+{"prompt": "Gegen unsere Bescheide gehen viele Widersprüche ein, die sich bei Nachfrage als Missverständnis herausstellen. Wie reduzieren wir das?", "obvious": "Bescheide verständlicher formulieren."}
+{"prompt": "Mein Gemüsegarten wird jedes Jahr von Nacktschnecken leergefressen. Schneckenkorn will ich nicht.", "obvious": "Schneckenzäune aufstellen und abends absammeln."}
+{"prompt": "Was kann eine Hotelrezeption von einer Krankenhausstation lernen?", "obvious": "Freundlichkeit und Sorgfalt im Umgang mit Menschen."}
+{"prompt": "Warum sind Kanaldeckel rund – und was lehrt das?", "obvious": "Weil das Tradition ist."}
+{"prompt": "Wie senkt man Wasserverbrauch in einem Bürogebäude?", "obvious": "Spararmaturen einbauen."}
+{"prompt": "Was kann mein Vorratsschrank von einem Supermarkt lernen?", "obvious": "Regelmäßig Inventur machen."}
+{"prompt": "Ein Mann geht ohne Schirm, ohne Hut und ohne Kapuze im strömenden Regen spazieren. Seine Kleidung wird klatschnass, aber kein einziges Haar auf seinem Kopf. Wie ist das möglich?", "obvious": "Er hat sich irgendwie geschützt oder ist unter etwas gelaufen."}
+{"prompt": "Die Akkus unserer Handscanner im Lager sind jeden Tag gegen Mittag leer.", "obvious": "Größere Akkus oder neue Geräte kaufen."}
+{"prompt": "Was kann ein Friseursalon von einer Zahnarztpraxis lernen?", "obvious": "Sauberkeit und pünktliche Termine."}
+{"prompt": "Was kann ein Verein von Open-Source-Projekten lernen?", "obvious": "Transparenter kommunizieren."}
+{"prompt": "Im Keller sind drei Lichtschalter, einer davon schaltet eine Glühbirne im Dachgeschoss. Du darfst nur einmal nach oben gehen. Wie findest du den richtigen Schalter?", "obvious": "Mehrmals hin- und hergehen oder jemanden oben fragen – beides verboten."}
+{"prompt": "Wie kommt ein Verein an seine Mitgliedsbeiträge, ohne dass der Kassenwart jedes Jahr Mahnungen schreiben muss?", "obvious": "Eine Erinnerungs-Mail an alle schicken, die noch nicht gezahlt haben."}
+{"prompt": "Was kann App-Design vom Supermarkt-Layout lernen?", "obvious": "Wichtige Dinge gut sichtbar platzieren."}
+{"prompt": "How can you make a dangerous intersection safer without adding traffic lights or new signs?", "obvious": "Lower the speed limit and put up warning signs."}
+{"prompt": "Unser alter Duschvorhang wird ersetzt. Hat der noch einen Zweck?", "obvious": "Als Abdeckplane beim Streichen."}
+{"prompt": "Wir haben eine alte Waschmaschine ausgeschlachtet, die Edelstahltrommel ist noch top. Ideen?", "obvious": "Als Feuerschale oder Pflanzkübel im Garten verwenden."}
+{"prompt": "Is a salad spinner useful for anything besides lettuce?", "obvious": "Washing berries or herbs."}
+{"prompt": "Was kann man beim Sprachenlernen vom Krafttraining übernehmen?", "obvious": "Regelmäßig dranbleiben."}
+{"prompt": "Ein Schüler sagt: „Vorgestern war ich noch 17, und nächstes Jahr werde ich 20.“ Er lügt nicht. Wie geht das?", "obvious": "Er verwechselt die Jahre."}
+{"prompt": "Eine Frau bringt zwei Söhne zur Welt, in derselben Stunde, am selben Tag, im selben Jahr – aber sie sind keine Zwillinge. Wie?", "obvious": "Einer ist adoptiert."}
+{"prompt": "Our delivery trucks drive back to the depot empty after every round. How can we make that leg useful?", "obvious": "Optimise routes so the empty return leg is shorter."}
+{"prompt": "Meine Smart-Home-Steckdosen verlieren ständig die WLAN-Verbindung. Router ist neu.", "obvious": "Router neu starten oder Repeater kaufen."}
+{"prompt": "A town has only two barbers. One has a perfect haircut, the other a terrible one. Which barber should you choose?", "obvious": "The one with the perfect haircut, since he obviously does good work."}
+{"prompt": "Was mache ich mit den ganzen leeren Klopapierrollen?", "obvious": "Kabel aufrollen oder mit Kindern basteln."}
+{"prompt": "Muffinblech, das ich nie benutze – Ideen?", "obvious": "Als Sortierkasten für Schrauben."}
+{"prompt": "Du willst ein Ei genau 9 Minuten kochen, hast aber nur eine 4-Minuten- und eine 7-Minuten-Sanduhr. Wie geht das?", "obvious": "Die Uhren nacheinander laufen lassen – ergibt aber nur 4, 7 oder 11 Minuten."}
+{"prompt": "Ein Mann liegt tot auf einem Feld. Neben ihm liegt ein ungeöffnetes Paket. Es gibt keine Fußspuren. Was ist passiert?", "obvious": "Er wurde ermordet und der Täter hat Spuren verwischt."}
+{"prompt": "Wie hält man ein Festivalgelände sauber, ohne mehr Reinigungspersonal einzustellen?", "obvious": "Mehr Mülleimer aufstellen und Schilder zum Sauberhalten."}
+{"prompt": "Wie organisiert man eine Mitgliederversammlung, wenn kein Termin gefunden wird, an dem genug Leute können?", "obvious": "Doodle-Umfrage machen und den Termin mit den meisten Zusagen nehmen."}
+{"prompt": "Unser Foodtruck findet in der Stadt keine Standorte, die genug Mittagsgäste bringen.", "obvious": "Auf Märkte und Festivals gehen."}
+{"prompt": "Das Hallenbad unserer Gemeinde verliert nachts viel Wärme, eine mechanische Abdeckung ist für das große Becken nicht finanzierbar.", "obvious": "Die Hallentemperatur nachts senken und die Lüftung drosseln."}
+{"prompt": "Der Hersteller will es nicht behalten, der Käufer braucht es nicht selbst, und der Benutzer sieht es nie. Was ist es?", "obvious": "Ein Geschenk."}
+{"prompt": "In unserer WG stapelt sich ständig das dreckige Geschirr. Putzpläne funktionieren nicht.", "obvious": "Einen strengeren Putzplan mit Strafen."}
+{"prompt": "Was kann ein Jugendtrainer von Videospielen lernen?", "obvious": "Kinder mögen Spaß, also mehr Spiele ins Training."}
+{"prompt": "Mein Laptop hat ein kaputtes Display, sonst läuft er. Lohnt sich da noch irgendwas?", "obvious": "Display reparieren lassen oder einen externen Monitor anschließen."}
+{"prompt": "Bei uns stapeln sich die Kinderzeichnungen. Wegwerfen bringe ich nicht übers Herz – was kann ich sonst damit machen?", "obvious": "Einscannen und ein Fotobuch drucken lassen."}
+{"prompt": "Radwege sind bei uns im Winter tagelang unbenutzbar. Mehr Räumfahrzeuge gibt es nicht. Was tun?", "obvious": "Mehr Personal einsetzen oder Anwohner zum Räumen verpflichten."}
+{"prompt": "Meine Schüler lassen Hausaufgaben von einer KI schreiben. Wie gehe ich damit um?", "obvious": "KI-Detektoren einsetzen oder Hausaufgaben nur noch handschriftlich verlangen."}
+{"prompt": "Wie findet man in einer großen Firma schneller den richtigen Ansprechpartner?", "obvious": "Ein besseres Intranet-Verzeichnis."}
+{"prompt": "Wie teste ich die Bedienbarkeit meiner App, wenn ich keine Testpersonen rekrutieren kann?", "obvious": "Freunde fragen oder ein Remote-Testing-Tool bezahlen."}
+{"prompt": "Our job ads attract lots of applicants, but most are a poor fit. What can we do?", "obvious": "Add stricter requirements and screening questions."}
+{"prompt": "In unserer Firmenkantine landen täglich große Mengen Essen im Müll, meist halbvolle Teller.", "obvious": "Portionsgrößen reduzieren und Mitarbeiter sensibilisieren."}
+{"prompt": "Unser Verein findet seit zwei Jahren keinen Kassenwart. Keiner will das Amt.", "obvious": "Eine Aufwandsentschädigung zahlen oder jemanden überreden."}
+{"prompt": "Volunteers for our Saturday youth league keep cancelling at the last minute.", "obvious": "Send more reminder emails."}
+{"prompt": "Unsere Kinder sollen schwimmen lernen, aber das Hallenbad hat nur wenige Kursplätze. Was können wir außerhalb des Beckens tun?", "obvious": "Auf einen Kursplatz warten."}
+{"prompt": "What can parents learn from air traffic control?", "obvious": "Stay calm and communicate clearly."}
+{"prompt": "Was kann ein Stromnetz von einem Ameisenstaat lernen?", "obvious": "Dass viele kleine Einheiten zusammenarbeiten müssen."}
+{"prompt": "Wofür kann man Kaffeesatz außer als Dünger noch nutzen?", "obvious": "In den Kompost geben oder als Dünger auf Beete streuen."}
+{"prompt": "Wie heize ich ein Gewächshaus im Winter frostfrei, wenn ich keine Heizung einbauen will?", "obvious": "Mit Luftpolsterfolie isolieren und hoffen."}
+{"prompt": "Ein Café hat nachmittags kaum Gäste. Was tun?", "obvious": "Happy-Hour-Rabatte oder Kuchenangebote."}
+{"prompt": "Ich schaffe es nach der Arbeit nicht mehr zum Training, ich bin einfach zu müde.", "obvious": "Früher schlafen gehen und sich mehr disziplinieren."}
+{"prompt": "Was kann man aus einer defekten Festplatte (HDD) noch rausholen?", "obvious": "Zum Elektroschrott bringen."}
+{"prompt": "In unserer Werkstatt verschwinden ständig Werkzeuge. Was tun?", "obvious": "Werkzeugausgabe mit Liste oder abschließbare Schränke."}
+{"prompt": "Wie bringe ich meine Kinder zum Aufräumen, ohne ständig zu meckern?", "obvious": "Belohnungssystem oder feste Regeln."}
+{"prompt": "Unser ambulanter Pflegedienst verliert in der Innenstadt viel Zeit mit Parkplatzsuche.", "obvious": "Anwohnerparkausweise beantragen."}
+{"prompt": "Welches Wort wird in jedem Wörterbuch falsch geschrieben?", "obvious": "Ein besonders schwieriges Fremdwort."}
+{"prompt": "Du brauchst für ein Rezept genau 4 Liter Wasser, hast aber nur einen 5-Liter- und einen 3-Liter-Eimer ohne Markierungen. Wie misst du ab?", "obvious": "Nach Augenmaß schätzen."}
+{"prompt": "Unsere Pflegekräfte kündigen meist nach ein bis zwei Jahren. Was können wir tun?", "obvious": "Gehalt erhöhen, Prämien zahlen."}
+{"prompt": "Unsere Praxis bekommt schlechte Online-Bewertungen wegen der Wartezeit, obwohl die Behandlung gut ist.", "obvious": "Die Wartezeit verkürzen."}
+{"prompt": "Unsere Klasse soll Französisch sprechen üben, aber wir haben keinen Muttersprachler an der Schule. Was tun?", "obvious": "Videos und Podcasts von Muttersprachlern im Unterricht nutzen."}
+{"prompt": "What else can a hotel do with its outdoor swimming pool during winter, when it's drained?", "obvious": "Cover it and wait for summer."}
+{"prompt": "Unsere Schule hat noch einen alten Overhead-Projektor im Keller. Lohnt es sich, den zu behalten?", "obvious": "Für Folien-Präsentationen, falls der Beamer ausfällt."}
+{"prompt": "Wie trockne ich Wäsche in einer winzigen Wohnung ohne Trockner und ohne Platz für einen Wäscheständer?", "obvious": "Auf der Heizung trocknen."}
+{"prompt": "Wie können Grundschüler Bruchrechnen verstehen, ohne das ewige Pizza-Beispiel?", "obvious": "Mit Schokoladentafeln oder Bruchstreifen aus Papier."}
+{"prompt": "Most of our app's 1-star reviews come from users who hit a bug once. How do we reduce them?", "obvious": "Fix more bugs and reply to the reviews."}
+{"prompt": "Bei unserem Volkslauf herrscht an der Verpflegungsstelle immer Chaos: Stau an den Tischen, Becher überall.", "obvious": "Mehr Helfer und Mülleimer."}
+{"prompt": "Ich hab noch eine alte USB-Webcam. Irgendwas Nützliches außer Videocalls?", "obvious": "Als Überwachungskamera oder für Videocalls verwenden."}
+{"prompt": "Unser Callcenter bricht montags immer zusammen. Mehr Agenten können wir nicht einstellen. Was tun?", "obvious": "Rückrufoption anbieten und die Pausen umplanen."}
+{"prompt": "A delivery truck gets stuck under a bridge because it's one inch too tall. The fire brigade is debating cutting the bridge. A child suggests a simpler fix. What is it?", "obvious": "Dig out the road beneath the truck or unload the cargo."}
+{"prompt": "Wofür kann man alte Schulhefte nutzen, in denen nur ein paar Seiten beschrieben sind?", "obvious": "Als Schmierpapier oder Einkaufszettel weiterverwenden."}
+{"prompt": "Unser Verein findet keinen neuen Vorstand. Niemand will sich drei Jahre binden. Was tun?", "obvious": "Mitglieder persönlich überreden oder eine Aufwandsentschädigung zahlen."}
+{"prompt": "Toms Mutter hat drei Kinder. Das erste heißt April, das zweite Mai. Wie heißt das dritte?", "obvious": "Juni – es geht ja nach Monaten."}
+{"prompt": "Wie zieht man in der Altbau-Innenstadt um, wenn vor dem Haus kein Umzugs-Lkw halten kann?", "obvious": "Halteverbotszone beantragen oder Möbelträger mit Sackkarre ein Stück laufen lassen."}
+{"prompt": "How can a small sports club run a weekend tournament without paying any referees?", "obvious": "Ask parents to volunteer or skip referees entirely."}
+{"prompt": "Was kann eine Musikbar mit alten Schallplatten samt Hüllen anfangen, die niemand mehr auflegt?", "obvious": "Als Wanddeko aufhängen oder zu Schalen verformen."}
+{"prompt": "Neue Mitarbeiter warten bei uns oft zwei Tage, bis ihr Laptop eingerichtet ist.", "obvious": "Mehr IT-Personal oder eine bessere Checkliste."}
+{"prompt": "How can a small hotel offer room service without having its own kitchen?", "obvious": "It can't – or it offers only snacks and a vending machine."}
+{"prompt": "Unser Team liefert fast immer zu spät, weil die Schätzungen zu optimistisch sind. Was tun?", "obvious": "Puffer einplanen oder besser schätzen üben."}
+{"prompt": "What can a nursing team learn from air traffic control?", "obvious": "Better communication."}
+{"prompt": "Eine Mutter hat vier Töchter, und jede Tochter hat einen Bruder. Wie viele Kinder hat die Mutter?", "obvious": "Acht Kinder: vier Töchter und vier Söhne."}
+{"prompt": "Our school's lost-and-found is overflowing and parents never come to collect anything. What can we do?", "obvious": "Send reminder emails and set a donation deadline."}
+{"prompt": "My shower drain clogs with hair every couple of weeks. What can I do?", "obvious": "Use a drain cleaner or a plastic hair snake."}
+{"prompt": "Ein Theater hat einen riesigen Fundus alter Kostüme. Was lässt sich damit machen, außer sie einzulagern?", "obvious": "An Privatleute für Fasching oder Mottopartys verleihen."}
+{"prompt": "Welches Wort wird im Duden immer falsch geschrieben?", "obvious": "Ein besonders schwieriges Fremdwort."}
+{"prompt": "Wie bekommt man Ruhe in einen Hostel-Schlafsaal, ohne neue Hausregeln aufzustellen?", "obvious": "Ohrstöpsel verteilen und Nachtruhe-Schilder aufhängen."}
+{"prompt": "Was lässt sich mit den Laternenmasten einer Wohnstraße zusätzlich anfangen?", "obvious": "Werbeplakate oder Blumenampeln daran befestigen."}
+{"prompt": "Ein Busfahrer fährt eine Einbahnstraße in die falsche Richtung. Ein Polizist sieht ihn genau an, unternimmt aber nichts. Warum?", "obvious": "Der Polizist hat nicht aufgepasst oder es war ein Notfall."}
+{"prompt": "Wie stellt man ein Team ein, ohne Lebensläufe zu lesen?", "obvious": "Auf Empfehlungen setzen oder strukturierte Interviews führen."}
+{"prompt": "Die Aufzüge in unserem Bürohochhaus sind morgens zwischen 8:45 und 9:15 völlig überlastet.", "obvious": "Treppen attraktiver machen oder einen weiteren Aufzug einbauen."}
+{"prompt": "What can exam preparation learn from pilot training in flight simulators?", "obvious": "Practise a lot before the real thing."}
+{"prompt": "Two fathers and two sons check into a hotel. Each of them gets his own room, yet they book only three rooms. How?", "obvious": "One of them sleeps in the lobby."}
+{"prompt": "Ich hab eine Schublade voller alter USB-Sticks mit 2 bis 4 GB. Wegwerfen oder gibt's eine sinnvolle Verwendung?", "obvious": "Für Dateiübertragungen behalten oder verschenken."}
+{"prompt": "Wie kann eine Versicherung Hausratschäden regulieren, ohne einen Gutachter vor Ort zu schicken?", "obvious": "Den Kunden Fotos und Rechnungen per Mail schicken lassen."}
+{"prompt": "Bei uns ist jeden Morgen Chaos, bis die drei Kinder aus dem Haus sind. Ich rede nur noch in Erinnerungen.", "obvious": "Früher aufstehen und Kleidung abends rauslegen."}
+{"prompt": "Wie organisiere ich einen Elternabend, ohne dass alle Eltern abends in die Schule kommen müssen, aber trotzdem mit echtem Austausch?", "obvious": "Eine Videokonferenz am Abend."}
+{"prompt": "Wie sichere ich einen rutschgefährdeten Hang am Grundstück, ohne Beton oder Stahl zu verbauen?", "obvious": "Eine Stützmauer oder Gabionen errichten."}
+{"prompt": "Was kann ich mit Kerzenresten noch machen?", "obvious": "Einschmelzen und neue Kerzen gießen."}
+{"prompt": "Wie können mehr Menschen ins Theater gehen, ohne Eintritt zu zahlen – und das Theater verdient trotzdem?", "obvious": "Pay-what-you-want-Abende oder Sponsoren."}
+{"prompt": "Wie macht man Behördenbescheide verständlich, ohne den Rechtstext umschreiben zu müssen?", "obvious": "Juristen und Texter gemeinsam die Bescheide in einfacher Sprache neu formulieren lassen."}
+{"prompt": "A bank is shrinking its branch network but keeps one large branch with an empty counter hall. What else could that space be used for?", "obvious": "Sublet it as office space or turn it into a café."}
+{"prompt": "Was kann ein Supermarkt von einem Museum lernen?", "obvious": "Schöne Präsentation und Beschilderung."}
+{"prompt": "What could a university lecture learn from a good podcast?", "obvious": "Use audio recordings so students can listen later."}
+{"prompt": "Ich bin Winzer und verliere durch Spätfröste im Frühjahr immer wieder einen Teil der Ernte. Gibt's was Günstiges?", "obvious": "Frostkerzen aufstellen oder Frostschutzberegnung installieren."}
+{"prompt": "Was können Passwortrichtlinien vom Haustürschlüssel lernen?", "obvious": "Passwörter sicher aufbewahren wie einen Schlüssel."}
+{"prompt": "Unsere Behörde mustert 40 alte Laptops aus. Gibt es eine sinnvollere Verwendung als die Entsorgung?", "obvious": "Ausmustern, verkaufen oder an Schulen spenden."}
+{"prompt": "In unserer Straße parken Lieferwagen ständig in zweiter Reihe und blockieren Busse und Radfahrer.", "obvious": "Mehr Kontrollen und höhere Bußgelder."}
+{"prompt": "A woman shoots her husband, then holds him under water for five minutes, and finally hangs him. Right after, they go out to dinner together. How?", "obvious": "It's a movie scene or a magic trick."}
+{"prompt": "Meine Kinder und ich streiten jeden Tag über Bildschirmzeit.", "obvious": "Feste Regeln und Zeitlimits per App einstellen."}
+{"prompt": "In unserem Hotel verschwinden ständig Bademäntel. Wie reduzieren wir die Verluste?", "obvious": "Höhere Kaution oder Bademäntel nur auf Nachfrage."}
+{"prompt": "Wie bringe ich Nutzern unsere App bei, ohne Tutorial-Screens beim ersten Start?", "obvious": "Tooltips oder ein kurzes Erklärvideo einbauen."}
+{"prompt": "I always lose tiny screws and dowels when assembling flat-pack furniture. Any tricks?", "obvious": "Use a small bowl to keep them in."}
+{"prompt": "Ich suche jeden Morgen meinen Schlüssel. Hilfe!", "obvious": "Ein Schlüsselbrett aufhängen."}
+{"prompt": "Wofür kann man Verschnitt und Reststücke aus der Produktion nutzen?", "obvious": "Entsorgen oder als Wertstoff verkaufen."}
+{"prompt": "Wir haben alte Silberlöffel geerbt, total angelaufen. Und noch eine Rolle Alufolie. Zusammenhang?", "obvious": "Silberputzmittel kaufen und polieren."}
+{"prompt": "Wofür kann man einen kaum genutzten Besprechungsraum noch verwenden?", "obvious": "Als Abstellraum oder Pausenraum."}
+{"prompt": "What can urban farming learn from data centers?", "obvious": "That you can stack things vertically to save space."}
+{"prompt": "Unser Sportverein hat 200 neue Trikots mit dem Logo eines Sponsors, der abgesprungen ist. Was machen wir damit?", "obvious": "An Altkleidersammlungen oder Partnervereine im Ausland spenden."}
+{"prompt": "Wir haben 20 Europaletten übrig. Möbel bauen alle – geht da was für die Straße vor dem Haus?", "obvious": "Sofa, Couchtisch oder Hochbeet daraus bauen."}
+{"prompt": "How do you keep vegetables fresh in a hot, dry region where nobody has electricity?", "obvious": "Store them in the shade and eat them quickly."}
+{"prompt": "What else could a sports club do with its clubhouse kitchen on weekday lunchtimes?", "obvious": "Nothing – it's only needed on match days."}
+{"prompt": "Wie senkt man den Ausschuss an einer Montagelinie, ohne zusätzliche Qualitätsprüfer einzustellen?", "obvious": "Mehr Stichprobenkontrollen und Schulungen für die Werker."}
+{"prompt": "Ein Nachtwächter erzählt morgens seinem Chef, er habe geträumt, dass dessen Flugzeug heute abstürzt. Der Chef bucht um, das Flugzeug verunglückt tatsächlich. Der Chef bedankt sich – und entlässt den Wächter. Warum?", "obvious": "Der Chef hält ihn für unheimlich oder glaubt, er habe etwas mit dem Unglück zu tun."}
+{"prompt": "Our team keeps breaking the main branch by merging code that only passed tests on its own branch.", "obvious": "Tell people to rebase and run tests before merging."}
+{"prompt": "Bei unserer Musikschule hören viele Kinder nach dem ersten Jahr wieder auf. Was können wir ändern?", "obvious": "Motivierendere Lehrkräfte, bessere Stücke, Elterngespräche."}
+{"prompt": "What can employee onboarding learn from video games?", "obvious": "Make it fun with points and badges."}
+{"prompt": "Wie finde ich die Holzständer in einer Rigipswand, wenn ich kein Ortungsgerät habe?", "obvious": "An der Wand klopfen und auf den Klang hören."}
+{"prompt": "Was kann die kommunale Müllabfuhr von Paketdiensten lernen?", "obvious": "Pünktlicher und kundenfreundlicher zu sein."}
+{"prompt": "Drei Gäste zahlen für ein Zimmer 30 Euro. Der Wirt merkt, dass es nur 25 kostet, und gibt dem Pagen 5 Euro zurück. Der Page behält 2 Euro und gibt jedem Gast 1 Euro. Jeder hat jetzt 9 Euro gezahlt, also 27, plus 2 beim Pagen sind 29. Wo ist der fehlende Euro?", "obvious": "Irgendwo muss ein Rechenfehler oder ein verschwundener Euro sein."}
+{"prompt": "Gäste unserer Ferienwohnung schreiben uns ständig dieselben Fragen per WhatsApp. Wie reduzieren wir das?", "obvious": "Eine ausführliche digitale Gästemappe schicken."}
+{"prompt": "Am Bahnhof fehlen Fahrradstellplätze, aber zusätzliche Fläche gibt es nicht. Was tun?", "obvious": "Doppelstockparker aufstellen."}
+{"prompt": "Drei Wochen Urlaub, kein Strom im Garten, kein Nachbar zum Gießen – wie überleben meine Gemüsebeete?", "obvious": "Vorher kräftig wässern und mulchen."}
+{"prompt": "Got a stack of old CDs nobody plays anymore. Any genuinely interesting use?", "obvious": "Hang them in the garden to scare birds, or use them as coasters."}
+{"prompt": "Die Mitarbeitenden in unserem Bürgeramt sind gestresst, weil viele Wartende gereizt und laut werden.", "obvious": "Deeskalationstraining und Sicherheitspersonal."}
+{"prompt": "Was kann ein Stand auf dem Wochenmarkt vom Theater lernen?", "obvious": "Den Stand ansprechend dekorieren."}
+{"prompt": "Bewerber sagen zu, erscheinen aber am ersten Arbeitstag nicht. Was hilft?", "obvious": "Verträge früher verschicken und eine Erinnerung vor Arbeitsbeginn senden."}
+{"prompt": "Die S-Bahn ist morgens zwischen 7:30 und 8:30 überfüllt. Mehr Züge gehen nicht. Ideen?", "obvious": "Längere Züge fahren oder mehr Stehplätze schaffen."}
+{"prompt": "Wie findet man gute Bewerber, ohne eine einzige Stellenanzeige zu schalten?", "obvious": "Über Empfehlungsprogramme und LinkedIn-Direktansprache."}
+{"prompt": "Wir haben viele Brettspiele, bei denen Teile fehlen. Was tun damit?", "obvious": "Ersatzteile beim Hersteller bestellen oder die Spiele entsorgen."}
+{"prompt": "Ein Vater und sein Sohn haben einen Unfall. Der Sohn kommt in die Klinik, doch die diensthabende Chirurgie-Kraft sagt: 'Ich kann ihn nicht operieren, er ist mein Sohn.' Wie ist das möglich?", "obvious": "Der Vater hat überlebt und ist selbst Chirurg, oder es handelt sich um einen Stiefvater."}
+{"prompt": "Wie verkürzt man die Rüstzeit einer Maschine, ohne in eine neue Maschine zu investieren?", "obvious": "Rüsten besser schulen oder größere Lose fahren, damit seltener gerüstet wird."}
+{"prompt": "Wie bekomme ich im Winter Wäsche trocken, ohne Trockner und ohne dass die Wohnung schimmelt?", "obvious": "Wäsche im Bad aufhängen und häufig lüften."}
+{"prompt": "Wie macht man eine Stadtführung, ohne dass ein Guide mitläuft?", "obvious": "Eine Audioguide-App anbieten."}
+{"prompt": "Unser Esstisch wackelt, weil der Boden uneben ist. Unterlegen sieht hässlich aus.", "obvious": "Bierdeckel unter das kürzeste Bein legen."}
+{"prompt": "In einer Firma arbeiten zwei Kolleginnen, die am selben Tag im selben Jahr von derselben Mutter geboren wurden, aber keine Zwillinge sind. Wie geht das?", "obvious": "Eine ist adoptiert, oder die Personalakte ist fehlerhaft."}
+{"prompt": "Wir haben ein Whiteboard in der Küche, das nur für die Einkaufsliste genutzt wird. Wofür könnte man es noch nutzen?", "obvious": "Für den Familienkalender oder Putzpläne."}
+{"prompt": "Unser Remote-Team fühlt sich isoliert. Was hilft?", "obvious": "Virtuelle Kaffeepausen und regelmäßige Teamevents."}
+{"prompt": "Je mehr man davon wegnimmt, desto größer wird es. Was ist es?", "obvious": "Ein Schuldenberg oder ein Problem."}
+{"prompt": "Was kann ein Paketverteilzentrum von einer Ameisenkolonie lernen?", "obvious": "Teamarbeit und Fleiß."}
+{"prompt": "Zwei Mädchen haben dieselbe Mutter, denselben Vater und sind am selben Tag im selben Jahr geboren – trotzdem sind sie keine Zwillinge. Wie ist das möglich?", "obvious": "Eines wurde adoptiert."}
+{"prompt": "Was kann eine Lehrkraft von einem Stand-up-Comedian lernen?", "obvious": "Humor im Unterricht einsetzen."}
+{"prompt": "Landwirte in unserer Region klagen über verdichtete Böden durch immer schwerere Maschinen.", "obvious": "Leichtere Maschinen kaufen und den Reifendruck senken."}
+{"prompt": "The more you take, the more you leave behind. What are they?", "obvious": "Photos or memories."}
+{"prompt": "Was kann ein IT-Betriebsteam von der Feuerwehr lernen?", "obvious": "Schnell reagieren und Bereitschaftsdienste haben."}
+{"prompt": "How do you run a museum exhibition without a building?", "obvious": "Put the collection online as a virtual exhibition."}
+{"prompt": "Wie organisiert man einen Fußballverein, der keinen eigenen Platz hat?", "obvious": "Bei der Stadt einen Platz beantragen und warten."}
+{"prompt": "I have an old e-reader gathering dust. Any non-obvious use for it?", "obvious": "Read books on it again or donate it."}
+{"prompt": "What can a language learner do with subtitle files (.srt) from their favourite series?", "obvious": "Read them alongside the episode to understand the dialogue."}
+{"prompt": "In unserem Haushalt verschwinden ständig Socken, und wir haben Berge von Einzelsocken. Lösung?", "obvious": "Socken vor dem Waschen zusammenklammern."}
+{"prompt": "In unserer Einkaufsstraße stehen immer mehr Läden leer. Eigentümer wollen aber die Miete nicht senken.", "obvious": "Mietzuschüsse für Neugründer oder ein Citymanagement."}
+{"prompt": "Ich habe eine Eiswürfelform aus Silikon übrig. Was außer Eis?", "obvious": "Als Farbpalette zum Malen."}
+{"prompt": "Du sollst eine Kerze an einer Holzwand befestigen, sodass kein Wachs auf den Boden tropft. Du hast nur die Kerze, eine Schachtel Reißzwecken und Streichhölzer. Wie?", "obvious": "Die Kerze mit Reißzwecken an die Wand pinnen oder mit Wachs ankleben – beides hält nicht oder tropft."}
+{"prompt": "What can I do with single socks that lost their pair?", "obvious": "Use them as dusting rags or to clean blinds."}
+{"prompt": "Der Badezimmerspiegel beschlägt nach jedem Duschen komplett. Was hilft ohne Spiegelheizung?", "obvious": "Fenster öffnen und Spiegel abwischen."}
+{"prompt": "Ich arbeite Vollzeit und muss für eine Zertifikatsprüfung lernen, habe aber keine freie Lernzeit. Wie geht das?", "obvious": "Früher aufstehen oder am Wochenende lernen."}
+{"prompt": "Was könnte eine Versicherung von Wikipedia lernen?", "obvious": "Ein Online-Lexikon mit Versicherungsbegriffen anbieten."}
+{"prompt": "Wofür kann man alte Tennisbälle noch nutzen?", "obvious": "Als Hundespielzeug oder zum Werfen."}
+{"prompt": "Wofür eignet sich eine Holzwäscheklammer beim Heimwerken?", "obvious": "Um Kabel oder Tüten zuzuklemmen."}
+{"prompt": "Zwei Mütter und zwei Töchter essen zusammen drei Eier. Jede isst genau ein ganzes Ei. Wie geht das?", "obvious": "Jemand teilt sein Ei, oder es gibt ein viertes Ei."}
+{"prompt": "Unser Bürogebäude verbraucht nachts fast so viel Strom wie tagsüber. Wie finden wir heraus, woran das liegt?", "obvious": "Einen Energieberater beauftragen und alle Geräte durchmessen lassen."}
+{"prompt": "Ich habe mittags viel Solarstrom übrig, aber kein Geld für eine Batterie. Wie speichere ich ihn trotzdem?", "obvious": "Den Überschuss einspeisen und die Vergütung kassieren."}
+{"prompt": "Was kann man mit den Rückläufern von Behördenbriefen machen, die als 'unzustellbar' zurückkommen?", "obvious": "Adresse beim Einwohnermeldeamt prüfen und neu versenden."}
+{"prompt": "Wir trinken viel Kaffee. Gibt es für den Kaffeesatz eine bessere Verwendung als die Biotonne?", "obvious": "Als Dünger ins Beet."}
+{"prompt": "A man walks for an hour in pouring rain with no umbrella, no hat and no hood, yet not a single hair on his head gets wet. How?", "obvious": "He walked under awnings the whole way."}
+{"prompt": "Was kann eine Versicherung mit Kündigungsschreiben anfangen, außer sie abzuarbeiten?", "obvious": "Eine Rückgewinnungsaktion mit Rabattangebot starten."}
+{"prompt": "Wie hänge ich in einer Mietwohnung mit Betonwänden Bilder auf, ohne zu bohren?", "obvious": "Klebestreifen oder Klebehaken."}
+{"prompt": "Was kann ein Recruiting-Team von Dating-Apps lernen?", "obvious": "Kandidaten schneller durch Profile swipen."}
+{"prompt": "Our city's building permit office has a huge backlog, and most applications are for very similar small projects. What could help?", "obvious": "Hire more plan reviewers and digitize submissions."}
+{"prompt": "How do I cool down my apartment on hot nights without air conditioning?", "obvious": "Open all windows at night and close the blinds during the day."}
+{"prompt": "The shared hallway lights in our apartment building are on 24/7, but retrofitting motion sensors everywhere is too expensive.", "obvious": "Put up signs asking residents to switch off the lights."}
+{"prompt": "Wie bekomme ich ehrliches Feedback zu neuen Feature-Ideen, ohne eine einzige Umfrage zu verschicken?", "obvious": "Interviews führen oder App-Store-Rezensionen lesen."}
+{"prompt": "What can the circular economy learn from a public library?", "obvious": "That sharing things is good for the environment."}
+{"prompt": "Viele Ältere in unserem Quartier trauen sich nicht mehr, Bus zu fahren – zu hektisch, zu viel Angst vor dem Anfahren.", "obvious": "Mehr Sitzplätze vorne und freundlichere Fahrer."}
+{"prompt": "How can a small band go on tour without a van or a tour budget?", "obvious": "Save up, borrow a van, play wherever pays."}
+{"prompt": "Was kann eine Fertigung von einem Supermarkt lernen?", "obvious": "Ordentliche Regale und gute Beschilderung."}
+{"prompt": "Wie bringt man Büroangestellte zu mehr Bewegung, ohne irgendein Sportangebot zu machen?", "obvious": "Fitnesskurse oder Firmenlauf anbieten."}
+{"prompt": "Wie kühlt man einen versiegelten Innenstadtplatz im Sommer ab, wenn wegen Leitungen im Boden keine Bäume gepflanzt werden dürfen?", "obvious": "Sonnensegel spannen."}
+{"prompt": "Pflegekräfte verbringen zu viel Zeit mit Dokumentation. Wie kann man das ändern, ohne neue Software zu kaufen?", "obvious": "Schneller tippen, Spracherkennung, Formulare kürzen."}
+{"prompt": "Ein Fußballspiel endet 3:2, und trotzdem hat kein einziger Mann ein Tor geschossen. Wie?", "obvious": "Es waren alles Eigentore oder ein Elfmeterschießen."}
+{"prompt": "Die Lohnbuchhaltung fragt: In wie vielen Monaten des Jahres gibt es einen 28. Tag, an dem abgerechnet werden kann?", "obvious": "In einem – im Februar."}
+{"prompt": "A city wants fewer people driving into the center. Ideas beyond tolls?", "obvious": "Better public transport and congestion charges."}
+{"prompt": "Was kann ein Waldbesitzer von einem Aktienportfolio lernen?", "obvious": "Dass Wald eine langfristige Geldanlage ist."}
+{"prompt": "What else can you do with an old graphing calculator once you've finished school?", "obvious": "Sell it second-hand or give it to a younger student."}
+{"prompt": "Outside a closed server room are three light switches; inside is one bulb. You may enter the room only once. How do you find out which switch controls the bulb?", "obvious": "Flip switches one by one and peek in each time – not allowed."}
+{"prompt": "Wofür kann man eine leere Konservendose noch nutzen?", "obvious": "Stifthalter oder Blumentopf."}
+{"prompt": "Wie senken wir die Zahl der Support-Tickets, ohne am Produkt selbst etwas zu ändern?", "obvious": "Mehr FAQ-Artikel schreiben."}
+{"prompt": "Wie bringe ich mein Team dazu, keine Passwörter mehr mehrfach zu verwenden – ohne Schulung?", "obvious": "Eine Sicherheitsschulung und strengere Passwortregeln."}
+{"prompt": "In meinem Deutschkurs für Erwachsene trauen sich viele nicht zu sprechen, aus Angst vor Fehlern.", "obvious": "Eine fehlerfreundliche Atmosphäre schaffen und viel loben."}
+{"prompt": "Wofür kann ein Hotel ausrangierte weiße Bettlaken noch nutzen?", "obvious": "Als Putzlappen zerschneiden oder an Textilrecycling geben."}
+{"prompt": "Wie motiviert man ein Team, wenn es keinen Spielraum für Gehaltserhöhungen gibt?", "obvious": "Lob, Teamevents und flexible Arbeitszeiten."}
+{"prompt": "A woman drops her ring into a full cup of coffee, but when she picks it out, the ring is completely dry. How?", "obvious": "She fished it out very quickly."}
+{"prompt": "Was kann eine Ausländerbehörde von der Kassenzone eines Supermarkts lernen?", "obvious": "Mehr Schalter öffnen, wenn es voll wird."}
+{"prompt": "Was kann ein ambulanter Pflegedienst von Paketzustellern lernen?", "obvious": "Touren optimieren."}
+{"prompt": "What could a parcel delivery company learn from a sushi conveyor belt?", "obvious": "Deliver faster and more continuously."}
+{"prompt": "You have a bowl with six apples. You take away four. How many do you have?", "obvious": "Two, because six minus four is two."}
+{"prompt": "Die Öffnungsraten unseres Newsletters sinken seit Monaten.", "obvious": "Betreffzeilen testen und den Versandzeitpunkt optimieren."}
+{"prompt": "A patch of water lilies on a lake doubles in size every day. After 48 days it covers the entire lake. On which day did it cover half the lake?", "obvious": "Day 24, half of 48."}
+{"prompt": "Zahnseide, nur nicht für die Zähne – fällt dir was ein?", "obvious": "Zum Aufhängen von leichten Dingen."}
+{"prompt": "Wie liefert man Pakete in der Innenstadt aus, ohne Fahrzeuge zu benutzen?", "obvious": "Lastenräder oder Fußboten."}
+{"prompt": "Ein Tischtennisball ist in ein schmales, senkrechtes Rohr gefallen, das fest im Hallenboden einbetoniert ist. Das Rohr ist nur wenig breiter als der Ball. Wie holt man ihn heraus, ohne Rohr oder Ball zu beschädigen?", "obvious": "Mit einer Zange oder einem Klebestreifen am Draht angeln."}
+{"prompt": "How do you run a sale without discounting anything?", "obvious": "Offer free shipping or a gift with purchase."}
+{"prompt": "How can a coastal village get drinking water when there's no river, no usable well and almost no rain – but thick fog rolls in most mornings?", "obvious": "Truck water in or build a desalination plant."}
+{"prompt": "Wie kann ein Mensch acht Tage lang nicht schlafen, ohne müde zu werden?", "obvious": "Durch Koffein oder eine seltene Krankheit."}
+{"prompt": "Wofür kann man die Wartezeit von Bewerbern am Empfang nutzen?", "obvious": "Kaffee anbieten und Imagebroschüren auslegen."}
+{"prompt": "Zwei Väter und zwei Söhne gehen beim Betriebsausflug angeln. Sie fangen drei Fische, und jeder bekommt genau einen. Wie ist das möglich?", "obvious": "Einer hat einen Fisch geteilt oder jemand ging leer aus."}
+{"prompt": "Zur Jahreshauptversammlung unseres Sportvereins kommen von 400 Mitgliedern nur 25. Wie kriegen wir mehr Leute dahin?", "obvious": "Früher einladen und eine Verlosung ankündigen."}
+{"prompt": "Wofür kann man Museumseintrittskarten nach dem Besuch noch nutzen?", "obvious": "Als Andenken aufheben oder wegwerfen."}
+{"prompt": "Unser Jazzclub ist dienstags praktisch leer. Was können wir an diesem Abend machen?", "obvious": "Rabatte auf Eintritt oder Getränke."}
+{"prompt": "Ich habe Städte, aber keine Häuser, Wälder, aber keine Bäume, und Wasser, aber keine Fische. Was bin ich?", "obvious": "Eine Ruine oder eine Wüste."}
+{"prompt": "Unsere App hat viele Downloads, aber kaum jemand registriert sich. Ideen?", "obvious": "Registrierung vereinfachen, Social Login anbieten."}
+{"prompt": "Unser Monitoring schlägt so oft Alarm, dass keiner mehr reagiert. Wie kriegen wir das in den Griff?", "obvious": "Schwellenwerte erhöhen."}
+{"prompt": "Wie können Dienstpläne in der Pflege entstehen, ohne dass die Stationsleitung sie schreibt?", "obvious": "Bessere Dienstplan-Software anschaffen."}
+{"prompt": "Wie mache ich ein Backup meiner Daten, ohne Cloud und ohne eine zweite Festplatte bei mir zu Hause?", "obvious": "Doch eine externe Festplatte kaufen oder DVDs brennen."}
+{"prompt": "Unsere Gemeinde baut eine neue Schule und sucht eine günstige, klimafreundliche Wärmequelle. Erdwärme ist zu teuer zu bohren.", "obvious": "Eine Luftwärmepumpe oder Pelletheizung einbauen."}
+{"prompt": "What can a bank's complaints department learn from aviation safety reporting?", "obvious": "Treat complaints seriously and respond quickly."}
+{"prompt": "Viele Kinder kommen bei uns ohne Frühstück in die Grundschule, und wir haben kein Budget für Verpflegung.", "obvious": "Einen Förderverein gründen und Spenden sammeln."}
+{"prompt": "Was kann eine Schule von einem Computerspiel lernen?", "obvious": "Punkte und Abzeichen für gute Leistungen vergeben."}
+{"prompt": "In unserem Wohnviertel gibt es abends keinen Parkplatz mehr. Ein Parkhaus zu bauen ist ausgeschlossen. Was geht?", "obvious": "Anwohnerparken einführen."}
+{"prompt": "Welche Zahl kommt als nächstes: 1, 11, 21, 1211, 111221, ...?", "obvious": "Man sucht eine arithmetische Regel und findet keine."}
+{"prompt": "Beim Firmenlauf überholst du kurz vor dem Ziel die Person auf Platz zwei. Auf welchem Platz bist du jetzt?", "obvious": "Auf Platz eins."}
+{"prompt": "Im Assessment-Center lautet eine Frage: Wie oft kann man 10 von 100 abziehen?", "obvious": "Zehnmal, bis man bei null ist."}
+{"prompt": "Bei uns im Kino schauen immer mehr Leute während des Films aufs Handy. Wie lösen wir das, ohne Gäste anzumeckern?", "obvious": "Hinweis vor dem Film, Personal geht durch die Reihen."}
+{"prompt": "Eine Frau in schwarzer Kleidung überquert eine Landstraße ohne Laternen. Das Auto hat kein Licht an, der Mond scheint nicht. Trotzdem bremst der Fahrer rechtzeitig. Wie?", "obvious": "Der Fahrer hat sehr gute Augen oder ein Nachtsichtgerät."}
+{"prompt": "Unsere Anwohnerinitiative will eine Wohnstraße autofrei machen – aber es gibt kein Budget und keinen Umbau. Geht das?", "obvious": "Bei der Stadt einen Antrag auf Umbau zur Fußgängerzone stellen und warten."}
+{"prompt": "Was kann ein Gemüsebauer von der Nose-to-Tail-Küche lernen?", "obvious": "Dass man keine Lebensmittel verschwenden sollte."}
+{"prompt": "Wofür kann man einen alten WLAN-Router noch nutzen?", "obvious": "Als Ersatzteil aufheben oder entsorgen."}
+{"prompt": "In der Schreinerei soll ein langes Brett in 10 gleiche Teile gesägt werden. Jeder Schnitt dauert eine Minute. Wie lange dauert das?", "obvious": "Zehn Minuten."}
+{"prompt": "Was kann Hausaufgabenbetreuung von einer Notaufnahme lernen?", "obvious": "Ruhe bewahren und einer Sache nach der anderen nachgehen."}
+{"prompt": "What can database design learn from a library?", "obvious": "Organise things clearly and keep a catalogue."}
+{"prompt": "Wie halte ich mein Haus im Hochsommer kühl – ohne Klimaanlage und ohne zusätzlichen Strom?", "obvious": "Ventilatoren aufstellen und Rollläden runterlassen."}
+{"prompt": "Was kann Software-Release-Management von einem Restaurant lernen?", "obvious": "Sauber und organisiert arbeiten."}
+{"prompt": "Bei unseren F-Jugend-Spielen schreien die Eltern ständig aufs Feld. Die Kinder sind total verunsichert.", "obvious": "Eltern-Verhaltensregeln aushängen und an den Fairplay-Gedanken appellieren."}
+{"prompt": "Wie verhindere ich falsche Postleitzahlen in einem Formular, ohne Fehlermeldungen anzuzeigen?", "obvious": "Eine Validierung mit roter Fehlermeldung einbauen."}
+{"prompt": "How do you run a team spread across nine time zones without anyone having to work at night?", "obvious": "Find a few overlapping hours and schedule all calls there, rotating the inconvenient slot."}
+{"prompt": "Wie kann eine Physiotherapiepraxis sicherstellen, dass Patienten ihre Übungen zu Hause richtig machen, ohne dass sie öfter kommen?", "obvious": "Übungsblätter mit Zeichnungen mitgeben."}
+{"prompt": "Was kann ein Remote-Team von der Flugsicherung lernen?", "obvious": "Klare Kommunikation und feste Kanäle."}
+{"prompt": "What can a theater learn from a sports stadium?", "obvious": "Bigger screens and better snacks."}
+{"prompt": "Our town's recycling bins are full of wrong items. Information campaigns haven't helped. What now?", "obvious": "More signage, more flyers, fines for wrong sorting."}
+{"prompt": "Was kann eine Kita von der Lagerorganisation in einer Fabrik lernen?", "obvious": "Ordnung halten und Dinge beschriften."}
+{"prompt": "Eine Frau fotografiert ihren Mann, hält ihn fünf Minuten unter Wasser und hängt ihn dann an einer Leine auf. Danach gehen beide gemeinsam essen. Was ist passiert?", "obvious": "Ein Verbrechen oder ein seltsames Ritual."}
+{"prompt": "Ich will wissen, ob das Sofa an die Wand passt, habe aber kein Maßband. Wie messe ich?", "obvious": "Mit Schritten grob abschätzen."}
+{"prompt": "Unser Kühlschrank riecht immer wieder muffig, obwohl wir ihn regelmäßig putzen. Woran liegt das?", "obvious": "Natron hineinstellen und öfter putzen."}
+{"prompt": "Any clever household use for a couple of old tennis balls?", "obvious": "Give them to the dog or put them under chair legs."}
+{"prompt": "Was wird größer, je mehr man wegnimmt?", "obvious": "Ein Schuldenberg."}
+{"prompt": "Bei unserem Paketdienst trifft der Fahrer in Wohnvierteln bei jedem fünften Stopp niemanden an. Was tun?", "obvious": "Mehr Paketshops anbieten und Benachrichtigungen verbessern."}
+{"prompt": "Die Turnhalle ist abends komplett belegt. Neue Gruppen bekommen keine Zeiten.", "obvious": "Bei der Kommune mehr Hallen fordern."}
+{"prompt": "Was wird nasser, je mehr es trocknet?", "obvious": "Ein Schwamm, der Wasser aufsaugt."}
+{"prompt": "Ein Mann springt aus einem Flugzeug, ohne Fallschirm, und landet unverletzt. Wie?", "obvious": "Er landet im Wasser oder im Schnee."}
+{"prompt": "Bei der Schichtübergabe in der Produktion gehen ständig Informationen verloren. Lösung?", "obvious": "Ein ausführlicheres Übergabeprotokoll einführen."}
+{"prompt": "Wofür kann man einen Rollator außer zum Gehen noch verwenden?", "obvious": "Zum Einkaufen-Transportieren oder als Sitzgelegenheit."}
+{"prompt": "Unsere Gemeinde hat keinen eigenen Busbetrieb. Wie kommen ältere Menschen trotzdem zum Arzt oder Einkaufen?", "obvious": "Ein Ruftaxi bezuschussen."}
+{"prompt": "Was kann man mit veralteten Schulbüchern machen, die durch eine neue Auflage ersetzt wurden?", "obvious": "Ins Altpapier geben oder an Schulen im Ausland spenden."}
+{"prompt": "Zwei Väter und zwei Söhne gehen angeln. Sie fangen drei Fische, und jeder bekommt einen ganzen Fisch. Wie geht das?", "obvious": "Einer hat keinen Fisch bekommen, oder sie haben einen Fisch geteilt."}
+{"prompt": "A truck driver goes the wrong way down a one-way street, passes a police officer, and isn't stopped. Why?", "obvious": "The officer didn't notice or the driver had special permission."}
+{"prompt": "A woman gives birth to two boys on the same day of the same year, but they are not twins. How is that possible?", "obvious": "They were born in different hospitals, or one was adopted."}
+{"prompt": "Wofür kann man ein Whiteboard im Büro noch nutzen, außer für Besprechungen?", "obvious": "Als Pinnwand für Notizen."}
+{"prompt": "Patienten verstehen nach der Entlassung oft nicht, was sie zu Hause beachten sollen.", "obvious": "Ausführlichere schriftliche Anweisungen mitgeben."}
+{"prompt": "Wie organisiert man ein Nachbarschaftsfest ohne Geld für Bühne und Technik?", "obvious": "Sponsoren suchen oder auf ein kleineres Fest ausweichen."}
+{"prompt": "In unserem Dorf liegt jeden Herbst massenhaft Fallobst unter den Streuobstbäumen und verrottet. Wie ließe sich das nutzen?", "obvious": "Einen Aufruf starten, dass sich jeder Obst sammeln darf."}
+{"prompt": "Besides rehearsing, what else can an orchestra do with its rehearsals?", "obvious": "Nothing – rehearsals are internal working time."}
+{"prompt": "Was kann Teamführung von der Feuerwehr lernen?", "obvious": "Schnell und entschlossen handeln."}
+{"prompt": "What can a music festival learn from an ant colony?", "obvious": "Teamwork and good organization."}
+{"prompt": "How can we make our website load faster without touching the code?", "obvious": "Buy faster hosting."}
+{"prompt": "Our subscription box loses most subscribers around month three. How do we fix that?", "obvious": "Offer a discount to people who try to cancel."}
+{"prompt": "Was kann ein Stadtführer-Heft von einem Kochrezept lernen?", "obvious": "Klare Gliederung und schöne Bilder."}
+{"prompt": "Wofür kann man die Warteschleife einer Service-Hotline noch nutzen, außer Musik abzuspielen?", "obvious": "Für Werbung oder Hinweise auf die Website."}
+{"prompt": "Wir sind ein Elektrobetrieb in der Innenstadt und unsere Monteure verlieren täglich bis zu einer Stunde mit Parkplatzsuche.", "obvious": "Parkausweise beantragen oder Strafzettel einkalkulieren."}
+{"prompt": "Bürger kommen zu ihren Terminen im Ausländeramt oft ohne die nötigen Unterlagen. Termine verfallen. Was tun?", "obvious": "In der Terminbestätigung die Unterlagen auflisten."}
+{"prompt": "What could an insurance call centre learn from a restaurant kitchen's 'mise en place'?", "obvious": "Agents should prepare better for their shifts."}
+{"prompt": "Wie führt man ein Team, ganz ohne regelmäßige Meetings?", "obvious": "Alles per Chat klären oder nur noch E-Mail-Updates schicken."}
+{"prompt": "Our running club's Sunday long runs keep shrinking – people come for a few weeks and then drop out.", "obvious": "Offer more pace groups and post the routes in advance."}
+{"prompt": "Was kann eine Versicherungshotline von einer Notaufnahme lernen?", "obvious": "Dringende Fälle vorziehen."}
+{"prompt": "Wie bereite ich mich auf eine mündliche Prüfung vor, wenn niemand Zeit hat, mich abzufragen?", "obvious": "Karteikarten durchgehen und Antworten im Kopf formulieren."}
+{"prompt": "Ich schreibe unter jede Klassenarbeit ausführliches Feedback, aber die Schüler schauen nur auf die Note.", "obvious": "Feedback kürzer und gezielter formulieren."}
+{"prompt": "Mein Kind kann den Stoff, hat aber in Mathearbeiten regelmäßig einen Blackout. Was hilft?", "obvious": "Mehr üben und vor der Arbeit gut schlafen."}
+{"prompt": "Wie bekommt man genug Helfer für das Vereinsfest, ohne dass jemand die Schichten plant?", "obvious": "Ein Vorstandsmitglied erstellt einen Plan und telefoniert alle ab."}
+{"prompt": "In unserer WG landet ständig Biomüll im Restmüll, weil keiner Lust auf den stinkenden Eimer hat. Was hilft?", "obvious": "Einen Putzplan aufstellen und sich gegenseitig ermahnen."}
+{"prompt": "Kommissionierer im Lager laufen täglich viele Kilometer. Wie verringert man die Laufwege?", "obvious": "Schnelldreher näher an den Packplatz legen."}
+{"prompt": "A woman was born in 1975 and died in 1975 at the age of 22. How is that possible?", "obvious": "It's a typo or a calendar trick."}
+{"prompt": "Was können Städte bei der Parkraumbewirtschaftung von Hotels lernen?", "obvious": "Freundlichen Service am Eingang."}
+{"prompt": "In Teambesprechungen äußern sich immer nur die gleichen drei Leute. Wie bekommt man alle Ideen auf den Tisch?", "obvious": "Gezielt Ruhigere ansprechen oder Redezeit begrenzen."}
+{"prompt": "Unser Chor findet seit Jahren keine Männerstimmen. Wie ändern wir das?", "obvious": "Aushänge, Werbung in Vereinen, gezielt Bekannte ansprechen."}
+{"prompt": "Was kann eine Amateurfußballmannschaft von der Freiwilligen Feuerwehr lernen?", "obvious": "Teamgeist und Zusammenhalt."}
+{"prompt": "Was kann mein Kleiderschrank von einer Bibliothek lernen?", "obvious": "Sachen nach Kategorien sortieren."}
+{"prompt": "Ein Pflegeheim hat beim Entrümpeln einen Karton alter Schallplatten und einen Plattenspieler gefunden. Wegwerfen?", "obvious": "Verkaufen oder als Deko aufstellen."}
+{"prompt": "Bei unserem Verein kommen Belege für Auslagen immer zu spät oder gehen verloren. Der Kassenwart verzweifelt.", "obvious": "Eine Frist festlegen und regelmäßig daran erinnern."}
+{"prompt": "Unser Stadtpark gilt nachts als unsicher. Mehr Licht oder Polizeistreifen sind nicht drin. Was dann?", "obvious": "Hecken zurückschneiden und Notrufsäulen aufstellen."}
+{"prompt": "Unsere Busse sind ständig verspätet. Eine eigene Busspur ist politisch nicht durchsetzbar.", "obvious": "Fahrpläne anpassen und mehr Puffer einbauen."}
+{"prompt": "Wofür könnte man eine leere Weinflasche verwenden, außer als Vase?", "obvious": "Als Kerzenhalter oder Nudelholz."}
+{"prompt": "Nach Meetings weiß keiner mehr, was beschlossen wurde. Protokolle liest niemand.", "obvious": "Einen festen Protokollführer bestimmen."}
+{"prompt": "Unsere Abendkurse an der Volkshochschule sind nach drei Wochen nur noch halb voll. Was können wir tun?", "obvious": "Erinnerungsmails schicken und den Kurs interessanter gestalten."}
+{"prompt": "Wie kann ein Amt eine Leistung gewähren, ohne dass der Bürger überhaupt einen Antrag stellt?", "obvious": "Antragsformulare vereinfachen und online anbieten."}
+{"prompt": "Wie senkt ein Bürgeramt die Wartezeit, ohne mehr Personal oder längere Öffnungszeiten?", "obvious": "Mehr Online-Termine anbieten und Spontanbesuche einschränken."}
+{"prompt": "In unserem Hotel ist das Frühstück zwischen 8 und 9 Uhr völlig überfüllt, davor und danach fast leer. Was tun?", "obvious": "Mehr Tische aufstellen oder Frühstückszeiten verlängern."}
+{"prompt": "Was kann eine Arztpraxis von der Expresskasse im Supermarkt lernen?", "obvious": "Schneller arbeiten."}
+{"prompt": "Nutzer unserer Habit-Tracker-App vergessen, ihre Einträge zu machen. Push-Nachrichten werden ignoriert.", "obvious": "Mehr oder besser getimte Erinnerungen schicken."}
+{"prompt": "Our city's bike-share bikes all end up at the bottom of the hill, and the stations up top are always empty.", "obvious": "Send trucks to rebalance the bikes every night."}
+{"prompt": "Students forget most of what they learned by the end of the summer holidays. What can a teacher do?", "obvious": "Assign a summer workbook."}
+{"prompt": "Wie dokumentiert man Software, ohne dass jemand extra Doku schreiben muss?", "obvious": "Eine Doku-Pflicht einführen oder einen Technical Writer einstellen."}
+{"prompt": "Wir haben eine Wärmepumpe und PV, aber mittags zu viel Strom und abends teuren Netzbezug. Ohne Batteriespeicher – was tun?", "obvious": "Den Überschuss einspeisen und abends eben zukaufen."}
+{"prompt": "Was kann man mit einer Walnuss außer Essen anfangen?", "obvious": "Als Deko oder Bastelmaterial."}
+{"prompt": "Wie schafft man mehr Wohnraum in einer Stadt, ohne ein einziges neues Gebäude zu bauen?", "obvious": "Leerstand bekämpfen und Ferienwohnungen verbieten."}
+{"prompt": "Wie veranstaltet man ein Konzert, wenn es keine Bühne und keine Halle gibt?", "obvious": "Einen Saal mieten oder eine mobile Bühne aufbauen."}
+{"prompt": "Im Pflegeheim essen einige Bewohner zu wenig, weil sie die Mahlzeiten als langweilig empfinden.", "obvious": "Speiseplan abwechslungsreicher gestalten."}
+{"prompt": "Unser Fußballverein hat nach dem Sponsorwechsel 60 alte Trikots übrig. Ideen?", "obvious": "Auf dem Flohmarkt verkaufen oder an einen Partnerverein im Ausland spenden."}
+{"prompt": "Wie lernt man eine Sprache ohne Lehrbuch und ohne App?", "obvious": "Filme in der Originalsprache schauen und mit Muttersprachlern reden."}
+{"prompt": "Bei unseren Konferenzen kommen nach der Mittagspause viele Teilnehmende nicht zurück in den Saal. Was tun?", "obvious": "Strengere Zeitansagen und einen starken Speaker nach dem Mittagessen."}
+{"prompt": "Meine 14-jährige Tochter erzählt beim Abendessen nichts über die Schule. Auf „Wie war's?“ kommt nur „Gut“.", "obvious": "Spezifischere Fragen stellen, z. B. „Was war heute lustig?“"}
+{"prompt": "Was kann Stadtverkehr vom menschlichen Blutkreislauf lernen?", "obvious": "Dass Verkehr fließen muss."}
+{"prompt": "Bei uns im Betrieb klicken sich alle durch die Pflicht-E-Learnings, ohne etwas mitzunehmen.", "obvious": "Abschlusstests mit höherer Bestehensgrenze einführen."}
+{"prompt": "Entscheidungen in unserem Leitungskreis werden immer wieder vertagt. Wie ändert man das?", "obvious": "Klare Verantwortlichkeiten festlegen und Fristen setzen."}
+{"prompt": "What can a manager learn from a jazz band?", "obvious": "Listening to each other and being flexible."}
+{"prompt": "Wie unterrichtet man Funktionen in Mathe ohne Tafel und ohne Arbeitsblätter?", "obvious": "Mit Tablets oder Geogebra am Beamer."}
+{"prompt": "Ich bin unterwegs ständig unsicher, ob ich den Herd ausgemacht habe.", "obvious": "Vor dem Gehen einfach nochmal bewusst nachsehen."}
+{"prompt": "A bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How much does the ball cost?", "obvious": "10 cents."}
+{"prompt": "Ein Prüfer hat zwei Zündschnüre, die jeweils genau 60 Minuten brennen, aber ungleichmäßig. Wie misst er genau 45 Minuten ab?", "obvious": "Eine Schnur zu drei Vierteln abschneiden – geht nicht, weil die Brenngeschwindigkeit ungleich ist."}
+{"prompt": "Wie kann man Schüler fair bewerten, ohne Noten zu vergeben?", "obvious": "Mit Portfolios und Kompetenzrastern."}
+{"prompt": "Mitarbeiter verschweigen Fehler aus Angst vor Ärger. Wie ändert man das?", "obvious": "Eine offene Fehlerkultur ausrufen und Schuldzuweisungen verbieten."}
+{"prompt": "Alte Feinstrumpfhose mit Laufmasche – wegwerfen oder hat die noch einen Zweck?", "obvious": "Als Füllmaterial oder zum Zusammenbinden von Pflanzen."}
+{"prompt": "Wir haben jeden Sommer Fruchtfliegen in der Küche. Fallen helfen nur kurz.", "obvious": "Essigfalle mit Spülmittel aufstellen."}
+{"prompt": "Was kann ein Krankenhaus von einem Formel-1-Boxenstopp lernen?", "obvious": "Schneller arbeiten."}
+{"prompt": "Eine Frau nimmt ihren Mann auf, hält ihn fünf Minuten unter Wasser und hängt ihn danach auf. Anschließend gehen beide gemeinsam essen. Wie ist das möglich?", "obvious": "Es klingt nach einem Verbrechen – also muss es ein Trick oder eine Lüge sein."}
+{"prompt": "Wie macht man ein neues Restaurant bekannt – ohne Social Media und ohne Werbebudget?", "obvious": "Flyer verteilen und auf Mundpropaganda hoffen."}
+{"prompt": "Das Personal in der Nachtschicht bekommt im Krankenhaus kein warmes Essen, die Kantine hat zu.", "obvious": "Die Kantine länger öffnen."}
+{"prompt": "Was kann Datenqualitäts-Management von der Lebensmittelhygiene lernen?", "obvious": "Regelmäßig kontrollieren."}
+{"prompt": "How can a farm in a dry region irrigate more without pumping any additional groundwater?", "obvious": "Switch to drip irrigation and plant drought-resistant crops."}
+{"prompt": "Wofür kann man ausrangierte Krankenhausbetten noch verwenden?", "obvious": "Spenden an Kliniken im Ausland oder verschrotten."}
+{"prompt": "Eine kleine Brauerei fragt: Was machen wir mit dem ganzen Treber außer ihn an Bauern abzugeben?", "obvious": "Als Viehfutter an Landwirte abgeben oder in die Biogasanlage."}
+{"prompt": "Employees completely ignore our company intranet. How do we get information to them?", "obvious": "Redesign the intranet and send weekly newsletters pointing to it."}
+{"prompt": "Meine alte elektrische Zahnbürste hat eine neue bekommen. Was kann ich mit der alten machen?", "obvious": "Fugen und Schmuck putzen."}
+{"prompt": "Ein breites Gummiband – gibt es da einen echten Heimwerker-Trick?", "obvious": "Zum Bündeln von Stiften oder Kabeln."}
+{"prompt": "Im Lager werden oft falsche Barcodes gescannt, weil mehrere Etiketten dicht nebeneinander kleben.", "obvious": "Etiketten mit mehr Abstand aufkleben."}
+{"prompt": "Das oberste Deck unseres Parkhauses steht am Wochenende komplett leer. Was könnten wir damit machen?", "obvious": "Flohmarkt oder Food-Festival veranstalten."}
+{"prompt": "Zwei Väter und zwei Söhne gehen angeln. Jeder fängt genau einen Fisch, trotzdem bringen sie nur drei Fische nach Hause. Kein Fisch ging verloren. Wie?", "obvious": "Einer hat seinen Fisch wieder freigelassen."}
+{"prompt": "Unser Hallenbad wird geschlossen, das leere Becken bleibt aber stehen. Was könnte man daraus machen?", "obvious": "Zuschütten und eine Lagerhalle draus machen."}
+{"prompt": "Commuters don't use our new park-and-ride lot at the edge of town, even though it's free.", "obvious": "Advertise it more on radio and social media."}
+{"prompt": "Ich habe nach dem Radreparieren einen Haufen kaputter Fahrradschläuche. Wegwerfen oder gibt es was Sinnvolles?", "obvious": "Flicken und weiterverwenden oder als Gummi zum Basteln nehmen."}
+{"prompt": "Bushaltestellen-Wartehäuschen: Gibt es eine sinnvolle Zweitnutzung?", "obvious": "Werbeflächen oder Infobildschirme."}
+{"prompt": "Unsere Kantine produziert täglich einen Eimer Eierschalen. Gibt's dafür eine bessere Verwendung als den Biomüll?", "obvious": "In den Kompost oder als Kalkdünger in den Garten."}
+{"prompt": "Ein Programmierer soll einkaufen. Seine Frau sagt: 'Bring eine Milch mit. Und wenn es Eier gibt, bring sechs.' Er kommt mit sechs Packungen Milch zurück. Warum?", "obvious": "Er hat sich verhört oder es gab keine Eier."}
+{"prompt": "Die jungen Straßenbäume in unserer Straße vertrocknen jeden Sommer. Das Grünflächenamt kommt nicht hinterher.", "obvious": "Die Stadt um mehr Bewässerung bitten."}
+{"prompt": "Unsere App lädt Daten vom Server, schneller geht es technisch nicht mehr. Wie fühlt sich das trotzdem schneller an?", "obvious": "Einen Ladekreisel oder Fortschrittsbalken anzeigen."}
+{"prompt": "Im Wareneingang liegen 9 gleich aussehende Bauteile, eines ist etwas schwerer. Mit einer Balkenwaage ohne Gewichte – wie findet man es mit nur zwei Wägungen?", "obvious": "Halbieren: 4 gegen 4 wiegen. Das braucht im schlechtesten Fall aber drei Wägungen."}
+{"prompt": "What else can you use an exit interview for?", "obvious": "Collect feedback on why people leave."}
+{"prompt": "Was kann ein Sportverein von einem Streamingdienst lernen?", "obvious": "Flexible Mitgliedschaften und Probemonate anbieten."}
+{"prompt": "What can urban planners learn from video game design?", "obvious": "Make cities more fun."}
+{"prompt": "Ein Schraubglas geht nicht auf, und ich habe keine Kraft und keinen Gummihandschuh. Was tun?", "obvious": "Deckel unter heißes Wasser halten."}
+{"prompt": "What can a GP practice do with its waiting room in the evenings when the practice is closed?", "obvious": "Leave it empty, or use it for staff meetings."}
+{"prompt": "How can a hospital reduce waiting times in the emergency department without adding beds or staff?", "obvious": "Hire more doctors and open more treatment bays."}
+{"prompt": "In unserer Notaufnahme werden wartende Angehörige oft laut und aggressiv, weil sie keine Informationen bekommen.", "obvious": "Sicherheitspersonal einsetzen."}
+{"prompt": "Wie halte ich einen angeschnittenen Kuchen saftig, wenn keine Kuchenglocke da ist?", "obvious": "In Frischhaltefolie wickeln."}
+{"prompt": "Wofür kann man einen ausrangierten Linienbus noch nutzen, außer ihn zu verschrotten?", "obvious": "Als Partybus vermieten oder in ein Verkehrsmuseum stellen."}
+{"prompt": "Ein Lkw ist unter einer Brücke steckengeblieben, weil er ein paar Zentimeter zu hoch ist. Die Feuerwehr überlegt, die Brücke anzuheben. Ein Kind hat eine einfachere Idee. Welche?", "obvious": "Die Ladung abladen oder die Brücke vorsichtig anheben."}
+{"prompt": "Bei unserer Krankenkasse kommen viele Anträge unvollständig rein, und jede Rückfrage kostet Wochen. Was können wir tun?", "obvious": "Das Formular überarbeiten und Pflichtfelder deutlicher markieren."}

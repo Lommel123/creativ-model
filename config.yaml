@@ -1,4 +1,4 @@
-base_model: unsloth/Qwen3-8B-unsloth-bnb-4bit   # Alternative: unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit
+base_model: unsloth/Qwen3-14B-unsloth-bnb-4bit   # bei Speicherproblemen: unsloth/Qwen3-8B-unsloth-bnb-4bit
 max_seq_length: 2048
 
 lora:
@@ -6,21 +6,37 @@ lora:
   alpha: 32
   dropout: 0.0
 
+# Stufe 1: Denkprozess lernen
 sft:
-  epochs: 2
-  lr: 2.0e-4
-  batch_size: 2
-  grad_accum: 4
-
-dpo:
-  epochs: 1
-  lr: 5.0e-6
-  beta: 0.1
+  epochs: 3
+  lr: 1.0e-4
   batch_size: 1
   grad_accum: 8
+  eval_steps: 25            # Prüfset-Loss alle 25 Schritte; bestes Checkpoint wird behalten
+
+# Stufe 2: selbst erfinden (Reinforcement Learning)
+grpo:
+  max_steps: 150            # ~8–10 h auf T4 – als "Save & Run All" im Hintergrund laufen lassen
+  save_steps: 25
+  lr: 5.0e-6
+  num_generations: 4        # Ideen pro Frage, die gegeneinander verglichen werden
+  batch_size: 4
+  grad_accum: 2
+  max_prompt_length: 256
+  max_completion_length: 512   # bei Speicherproblemen: 384
+  temperature: 0.9
+  judge_model: unsloth/Qwen3-4B-unsloth-bnb-4bit   # läuft auf der 2. GPU, bewertet nur "funktioniert das?"
+  embed_model: intfloat/multilingual-e5-small
+  reward_weights:
+    format: 0.5
+    creative_valid: 1.0     # Originalität zählt nur, wenn die Idee auch funktioniert
+    diversity: 0.3
+    length: 0.2
 
 eval:
-  judge_model: none        # optional: Judge über API, sonst lokale Heuristik
   embed_model: intfloat/multilingual-e5-small
-  samples_per_prompt: 3
+  judge_model: unsloth/Qwen3-4B-unsloth-bnb-4bit
+  general_prompts: 25
+  business_prompts: 20
+  samples_per_prompt: 2
   temperature: 0.8
