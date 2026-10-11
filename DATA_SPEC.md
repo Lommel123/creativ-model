@@ -92,3 +92,62 @@ Schreibe per Python-Skript mit `json.dumps(..., ensure_ascii=False)`, eine Zeile
 `{"messages":[{"role":"user","content":"…"},{"role":"assistant","content":"Annahmen: …\nWerkzeug – …: … → Rohidee: …\n…\nAussortiert: …\nBeste Idee: …"}]}`
 
 Prüfe am Ende mit Python: 60 und 40 gültige Zeilen. Jede SFT-Antwort hat genau eine Zeile „Annahmen:“, 3–4 Zeilen „Werkzeug – … → Rohidee:“, genau eine „Aussortiert:“ und genau eine „Beste Idee:“. Werkzeugnamen nicht nachträglich umbenennen. Antworte nur mit einer Zeile: Anzahl SFT, Anzahl Prompts.
+
+
+---
+
+# Aufgabentypen 3–5: Probleme finden, Ideen verbessern, Frage umdeuten
+
+Ein LLM lernt die **Methode** des Querdenkens, um später in beliebigen Bereichen selbst originelle, funktionierende Ideen zu erfinden. Lies zuerst `/home/claude/creativ-model/DATA_SPEC.md` (Werkzeugliste, Zeilenformat, Regeln) und schau dir 3 Beispiele aus `/home/claude/creativ-model/data/sft.jsonl` an.
+
+Du erzeugst **eine** der drei Zusatzfähigkeiten. Welche, steht in deinem Auftrag.
+
+## Fähigkeit A – Probleme finden
+- **Prompt:** eine Beobachtung oder Alltagsszene, oft ganz ohne genanntes Problem („Morgens stehen am Bahnsteig alle an derselben Tür.“ / „Was fällt dir an einem Wochenmarkt auf, das man verbessern könnte?“).
+- **Annahmen:** was alle in dieser Szene als normal hinnehmen.
+- **Werkzeug-Zeilen:** decken je ein verstecktes, noch unbenanntes Problem auf. Die Rohidee nennt das Problem plus einen ersten Lösungsansatz.
+- **Aussortiert:** offensichtliche Probleme, die jeder sieht, oder Scheinprobleme
+- **Beste Idee:** das relevanteste unentdeckte Problem, warum es übersehen wird, und eine konkrete Lösung mit Haken
+- **„obvious“ (für die Nur-Fragen):** das Problem, das jeder sofort nennen würde
+
+## Fähigkeit B – Eigene Ideen zerlegen und verbessern
+- **Prompt:** enthält eine Idee, oft mittelmäßig oder mit verstecktem Fehler („Meine Idee: … Was taugt sie? Mach sie besser.“).
+- **Annahmen:** was die Idee stillschweigend voraussetzt, also ihre Schwachstellen
+- **Werkzeug-Zeilen:** greifen je eine Schwachstelle an. Die Rohidee ist eine verbesserte oder umgebaute Version.
+- **Aussortiert:** ehrlich benennen, woran die Ursprungsidee scheitern würde, und welche Verbesserung nur Kosmetik ist
+- **Beste Idee:** die stärkste Version, welche Hauptschwäche sie behebt, welcher Haken bleibt
+- **„obvious“:** die Ursprungsidee aus dem Prompt
+
+## Fähigkeit C – Die Frage umdeuten
+- **Prompt:** ein Problem, so wie Menschen es typischerweise formulieren („Wie mache ich den Aufzug schneller?“).
+- **Annahmen:** was in der Formulierung der Frage schon vorausgesetzt wird
+- **Werkzeug-Zeilen:** formulieren die Frage je neu. Die Rohidee hat die Form „Neue Frage: … → Idee: …“ (alles in einer Zeile nach „→ Rohidee:“).
+- **Aussortiert:** Umdeutungen, die am eigentlichen Bedürfnis vorbeigehen
+- **Beste Idee:** die fruchtbarste neue Frage, warum sie besser ist, und die konkrete Lösung mit Haken
+- **„obvious“:** die naheliegende Antwort auf die wörtlich gestellte Frage
+
+## Format (identisch zum restlichen Datensatz, exakt diese Zeilenanfänge)
+```
+Annahmen: 1) … 2) … 3) …
+Werkzeug – <Name>: <Anwendung> → Rohidee: …
+Werkzeug – <Name>: <Anwendung> → Rohidee: …
+Werkzeug – <Name>: <Anwendung> → Rohidee: …
+(optional 4. Werkzeug-Zeile)
+Aussortiert: …
+Beste Idee: …
+```
+Werkzeuge (3–4 pro Beispiel, wechselnde Kombination, Namen exakt so): Umkehrung · Fremde Domäne · Einschränkung weglassen · Einschränkung hinzufügen · Perspektivwechsel · Kombination · Skalierung · Zweckentfremdung · Zeitverschiebung. Werkzeugnamen nicht nachträglich umbenennen, Werkzeug und Rohidee müssen inhaltlich zusammenpassen.
+
+## Regeln
+- **Keine Geschäftsideen, kein Geldverdienen, keine Startups, kein Marketing, keine Kunden oder Umsätze.** Es geht um praktische, soziale, technische, gestalterische Themen aus vielen Lebensbereichen: Alltag, Stadt, Schule, Natur, Technik, Verein, Familie, Sport, Kunst, Reisen. Business bleibt dem Test vorbehalten.
+- Lösungen funktionieren tatsächlich (physikalisch, sozial, rechtlich, sicher). Keine erfundenen Fakten oder Zahlen. Nichts Gefährliches, keine medizinische Beratung, keine Politik.
+- ~20 % englische Prompts: Inhalt auf Englisch, die Zeilenanfänge bleiben deutsch.
+- Länge pro Antwort: 150–300 Wörter. Prompts vielfältig formulieren.
+- Nicht verwenden: Prompts aus `/home/claude/creativ-model/data/batches/_eval_list.txt` oder nahe Varianten.
+
+## Liefern
+- genau **75 SFT-Beispiele** → `/home/claude/creativ-model/data/batches/<DATEI>.jsonl`, Format `{"messages":[{"role":"user","content":"…"},{"role":"assistant","content":"Annahmen: …\n…\nBeste Idee: …"}]}`
+- genau **50 Nur-Fragen** → `/home/claude/creativ-model/data/batches/<DATEI>_prompts.jsonl`, Format `{"prompt":"…","obvious":"…"}` (Inhalt von „obvious“ siehe Fähigkeit)
+- Beide Dateien ohne überschneidende Prompts. Schreibe per Python mit `json.dumps(..., ensure_ascii=False)`.
+
+Prüfe am Ende mit Python die exakten Zeilenzahlen und für jede SFT-Antwort: genau eine Zeile „Annahmen:“, 3–4 Zeilen „Werkzeug – … → Rohidee:“, genau eine „Aussortiert:“, genau eine „Beste Idee:“. Antworte nur mit einer Zeile: Anzahl SFT, Anzahl Prompts.

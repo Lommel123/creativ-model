@@ -8,7 +8,7 @@ lora:
 
 # Stufe 1: Denkprozess lernen
 sft:
-  epochs: 3
+  epochs: 2                 # mehr unterschiedliche Daten statt Wiederholung
   lr: 1.0e-4
   batch_size: 1
   grad_accum: 8

@@ -35,8 +35,8 @@ Werkzeuge: Umkehrung · Fremde Domäne · Einschränkung weglassen · Einschrän
 ## Daten
 | Datei | Inhalt |
 |---|---|
-| `data/sft.jsonl` / `sft_val.jsonl` | 863 / 95 Denkspuren ohne Business: Probleme lösen (11 Themenfelder) + **Ideen-Evolution** (aus bestehenden Ideen neue entwickeln: Mutation, Rekombination, Transfer) |
-| `data/grpo_prompts.jsonl` | 624 Fragen + Referenz (naheliegende Lösung bzw. Ausgangsidee), von der sich die neue Idee entfernen soll |
+| `data/sft.jsonl` / `sft_val.jsonl` | 1.267 / 139 Denkspuren ohne Business, 5 Fähigkeiten: **Probleme lösen** (11 Themenfelder) · **Ideen-Evolution** (Mutation, Rekombination, Transfer) · **Probleme finden** · **Ideen zerlegen & verbessern** · **Frage umdeuten** |
+| `data/grpo_prompts.jsonl` | 922 Fragen aus allen 5 Fähigkeiten + Referenz (naheliegende Lösung bzw. Ausgangsidee), von der sich die neue Idee entfernen soll |
 | `eval/eval_prompts.jsonl` | 15 allgemeine + 10 Business-Testfragen |
 | `eval/business_holdout.jsonl` | 525 Business-Fragen, nur für Tests |
 | `eval/business_evolution.jsonl` | 20 bestehende Geschäftsmodelle → neue entwickeln, nur für Tests |
