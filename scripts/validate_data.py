@@ -34,7 +34,7 @@ def check_trace(name, i, ans):
             errors.append(f"{name}:{i} braucht genau eine '{key}'-Zeile")
 
 
-tests = {norm(r["prompt"]) for f in ("eval/eval_prompts.jsonl", "eval/business_holdout.jsonl") for r in load(ROOT / f)}
+tests = {norm(r["prompt"]) for f in ("eval/eval_prompts.jsonl", "eval/business_holdout.jsonl", "eval/business_evolution.jsonl") for r in load(ROOT / f)}
 seen = set()
 counts = {}
 for fname in ("data/sft.jsonl", "data/sft_val.jsonl"):

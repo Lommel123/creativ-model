@@ -35,10 +35,11 @@ Werkzeuge: Umkehrung · Fremde Domäne · Einschränkung weglassen · Einschrän
 ## Daten
 | Datei | Inhalt |
 |---|---|
-| `data/sft.jsonl` / `sft_val.jsonl` | 594 / 66 Denkspuren aus 11 Themenfeldern, ohne Business |
-| `data/grpo_prompts.jsonl` | 427 Fragen + naheliegende Lösung als Referenz |
+| `data/sft.jsonl` / `sft_val.jsonl` | 863 / 95 Denkspuren ohne Business: Probleme lösen (11 Themenfelder) + **Ideen-Evolution** (aus bestehenden Ideen neue entwickeln: Mutation, Rekombination, Transfer) |
+| `data/grpo_prompts.jsonl` | 624 Fragen + Referenz (naheliegende Lösung bzw. Ausgangsidee), von der sich die neue Idee entfernen soll |
 | `eval/eval_prompts.jsonl` | 15 allgemeine + 10 Business-Testfragen |
 | `eval/business_holdout.jsonl` | 525 Business-Fragen, nur für Tests |
+| `eval/business_evolution.jsonl` | 20 bestehende Geschäftsmodelle → neue entwickeln, nur für Tests |
 
 Prüfen: `python scripts/validate_data.py`
 
