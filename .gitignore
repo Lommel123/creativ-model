@@ -5,3 +5,4 @@ checkpoints*/
 adapter_*/
 eval/out_*.jsonl
 .venv/
+data/batches/
