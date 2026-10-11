@@ -14,9 +14,14 @@ sft:
   grad_accum: 8
   eval_steps: 25            # Prüfset-Loss alle 25 Schritte; bestes Checkpoint wird behalten
 
+# Nachtlauf (00_komplett.ipynb): Kaggle bricht nach 12 h hart ab
+run:
+  time_budget_hours: 11.5   # danach wird sauber gestoppt und gespeichert
+  sft_max_hours: 3.0        # Stufe 1 bekommt höchstens so viel davon
+
 # Stufe 2: selbst erfinden (Reinforcement Learning)
 grpo:
-  max_steps: 150            # ~8–10 h auf T4 – als "Save & Run All" im Hintergrund laufen lassen
+  max_steps: 1000           # Obergrenze; im Nachtlauf stoppt das Zeitbudget vorher
   save_steps: 25
   lr: 5.0e-6
   num_generations: 4        # Ideen pro Frage, die gegeneinander verglichen werden

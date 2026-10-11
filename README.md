@@ -7,7 +7,10 @@ Ziel: einem Open-Source-LLM **die Methode** des Out-of-the-Box-Denkens beibringe
 - Basismodell: `Qwen3-14B` (4-bit, Unsloth). Bei Speicherproblemen in `config.yaml` auf 8B wechseln.
 - Training: Kaggle, GPU T4 x2
 
-## Pipeline
+## Schnellstart: Nachtlauf
+`notebooks/00_komplett.ipynb`: Stufe 1 + 2 in einem Lauf, nutzt ~11,5 h und stoppt sauber vor Kaggles 12-h-Limit. Zum Weitertrainieren den Output als Input hinzufügen, dann setzt der nächste Lauf automatisch fort.
+
+## Pipeline (einzeln)
 
 | Stufe | Notebook | Daten | Was passiert | Dauer (T4) |
 |---|---|---|---|---|
