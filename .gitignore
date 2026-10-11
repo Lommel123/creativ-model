@@ -1,0 +1,7 @@
+__pycache__/
+*.gguf
+gguf/
+checkpoints*/
+adapter_*/
+eval/out_*.jsonl
+.venv/

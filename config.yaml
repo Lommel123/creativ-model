@@ -1,0 +1,26 @@
+base_model: unsloth/Qwen3-8B-unsloth-bnb-4bit   # Alternative: unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit
+max_seq_length: 2048
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.0
+
+sft:
+  epochs: 2
+  lr: 2.0e-4
+  batch_size: 2
+  grad_accum: 4
+
+dpo:
+  epochs: 1
+  lr: 5.0e-6
+  beta: 0.1
+  batch_size: 1
+  grad_accum: 8
+
+eval:
+  judge_model: none        # optional: Judge über API, sonst lokale Heuristik
+  embed_model: intfloat/multilingual-e5-small
+  samples_per_prompt: 3
+  temperature: 0.8
