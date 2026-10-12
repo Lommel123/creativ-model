@@ -15,7 +15,7 @@ Ziel: einem Open-Source-LLM **die Methode** des Out-of-the-Box-Denkens beibringe
 | Stufe | Notebook | Daten | Was passiert | Dauer (T4) |
 |---|---|---|---|---|
 | 1 Prozess lernen | `01_sft.ipynb` | `data/sft.jsonl` + `sft_val.jsonl` | Denkprozess imitieren, Prüfset gegen Auswendiglernen | ~1,5–2,5 h |
-| 2 Selbst erfinden | `02_grpo.ipynb` | `data/grpo_prompts.jsonl` (nur Fragen) | Reinforcement Learning: Belohnung für originell **und** funktionsfähig | ~8–10 h |
+| 2 Selbst erfinden | `02_grpo.ipynb` (lädt `adapter_sft` aus Input, Schnelltests zu Beginn) | `data/grpo_prompts.jsonl` (nur Fragen) | Reinforcement Learning: Belohnung für originell **und** funktionsfähig | ~8–10 h |
 | 3 Transfer-Test | `03_eval.ipynb` | `eval/` | Basis vs. trainiert auf allgemeinen und Business-Fragen, GGUF-Export | ~1–2 h |
 
 ## Der Denkprozess (Antwortformat)
@@ -28,6 +28,8 @@ Beste Idee: <ausgearbeitet, warum es funktioniert, ehrlicher Haken>
 Werkzeuge: Umkehrung · Fremde Domäne · Einschränkung weglassen · Einschränkung hinzufügen · Perspektivwechsel · Kombination · Skalierung · Zweckentfremdung · Zeitverschiebung
 
 ## Belohnung in Stufe 2
+Der Judge läuft als **eigener Prozess ohne Unsloth** (`scripts/judge_server.py`, GPU 1). Unsloth patcht Qwen3 global; ein Judge im selben Prozess crasht bei der Generierung (`'Qwen3ForCausalLM' object has no attribute 'max_seq_length'`, Lauf V1).
+
 - **creative_valid:** Gültigkeit (Judge-Modell auf GPU 1) × Originalität (Abstand zur naheliegenden Lösung). Ohne Gültigkeit gibt es keine Punkte.
 - **diversity:** anders als die übrigen Ideen derselben Runde
 - **format** und **length:** Denkprozess einhalten, nicht ausufern
