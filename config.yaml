@@ -19,23 +19,28 @@ run:
   time_budget_hours: 11.5   # danach wird sauber gestoppt und gespeichert
   sft_max_hours: 3.0        # Stufe 1 bekommt höchstens so viel davon
 
-# Stufe 2: selbst erfinden (Reinforcement Learning)
-# Realistisch auf T4 x2 mit 14B: ~3 min/Schritt (Generierung dominiert).
-# Plan: Lauf 1 (~180 Schritte) + Fortsetzung in Lauf 2 bis max_steps.
+# Stufe 2: selbst erfinden (Reinforcement Learning) – Ziel: komplett in EINER ~11-h-Session
+# Abwägung (T4 x2, 14B): Generierung ist ~75 % der Schrittzeit.
+#  - num_generations bleibt 4: mit 2 vergleicht GRPO nur noch Paare -> sehr verrauschtes Lernsignal
+#  - max_completion_length bleibt 512: Trainingsantworten haben Median 429 Tokens (Qwen3-Tokenizer),
+#    384 würde 78 %, 448 noch 38 % mitten in "Beste Idee" abschneiden
+#  - Tempo stattdessen über größeren Generierungs-Batch (16) + Längenstrafe, die wirklich greift
+#  - kein vLLM: auf T4 mit 14B nicht belegt, extra Installation = Risiko für den ganzen Nachtlauf
+#  - 8B nur als Fallback: bräuchte neues SFT (~2 h) und denkt schlechter
 grpo:
-  max_steps: 360            # Gesamtziel über beide Läufe (~0,8 Durchgänge durch 922 Fragen)
+  max_steps: 200            # bei ~2 min/Schritt ~7 h; im ungünstigen Fall stoppt das Zeitbudget bei ~170
   time_budget_hours: 10.5   # pro Session; lässt GPU-Kontingent für den Test (03) übrig
-  save_steps: 20            # Checkpoint ca. stündlich
+  save_steps: 20            # Checkpoint ca. alle 40–70 min
   lr: 5.0e-6
   num_generations: 4        # Ideen pro Frage, die gegeneinander verglichen werden
   batch_size: 4
   grad_accum: 2
-  steps_per_generation: 4   # 16 Antworten in EINEM Generierungs-Batch statt 2x8 (schneller auf T4); bei OOM autom. Rückfall auf 2
+  steps_per_generation: 4   # 16 Antworten in EINEM Generierungs-Batch statt 2x8; bei OOM autom. Rückfall auf 8
   max_prompt_length: 256    # (wird von neuerem TRL ignoriert – Prompts sind ohnehin kurz)
   max_completion_length: 512
   mask_truncated_completions: true   # abgeschnittene Antworten zählen nicht in den Loss
-  length_target_words: 280  # Strafe ab hier (Trainingsdaten: Median 224, max 328 Wörter)
-  length_max_words: 340     # volle Strafe (-1) ab hier
+  length_target_words: 230  # ≈ 440 Tokens: Strafe ab hier (Trainingsdaten Median 226 Wörter)
+  length_max_words: 265     # ≈ 505 Tokens: volle Strafe (-1) kurz vor dem 512-Token-Limit
   temperature: 0.9
   judge_model: unsloth/Qwen3-4B-unsloth-bnb-4bit   # läuft auf der 2. GPU, bewertet nur "funktioniert das?"
   embed_model: intfloat/multilingual-e5-small
