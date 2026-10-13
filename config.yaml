@@ -57,3 +57,15 @@ eval:
   business_prompts: 20
   samples_per_prompt: 2
   temperature: 0.8
+
+# Vergleich Basis · nur Stufe 1 · Stufe 1+2 (05_vergleich.ipynb) – Ziel 3–4 h auf T4 x2
+compare:
+  judge_model: unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit   # andere Modellfamilie als Training (Qwen) und Trainings-Judge
+  judge_fallback: unsloth/Qwen3-8B-unsloth-bnb-4bit          # falls Llama nicht lädt
+  embed_model: intfloat/multilingual-e5-small
+  prompts: {allgemein: 10, business: 15, business_evolution: 15}   # 40 Fragen, alle mit fairer Referenz
+  samples: 4                 # pro Frage und Variante, in EINEM Generierungs-Batch
+  max_new_tokens: 560        # Trainingsantworten: Median 429 Tokens
+  temperature: 0.8
+  gen_budget_hours: 2.6      # Zeitwächter: danach keine neue Frage mehr (alle 3 Varianten bleiben gleich lang)
+  seed: 42

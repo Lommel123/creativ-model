@@ -1,25 +1,25 @@
-{"id": 0, "prompt": "Wofür kann man einen Ziegelstein noch nutzen?"}
-{"id": 1, "prompt": "Wie reduziert man Lärm in einem Großraumbüro ohne Umbau?"}
-{"id": 2, "prompt": "Wie kann eine Bibliothek im Jahr 2030 relevant bleiben?"}
-{"id": 3, "prompt": "Ein Fitnessstudio verliert im Sommer Mitglieder. Was tun?"}
-{"id": 4, "prompt": "Wie verteilt man Medikamente in abgelegenen Dörfern?"}
-{"id": 5, "prompt": "Was kann ein Bauer von einem Software-Team lernen?"}
-{"id": 6, "prompt": "Wie macht man Steuererklärungen weniger lästig?"}
-{"id": 7, "prompt": "Ein Mann wohnt im 10. Stock, fährt aber nur bis zum 7. und läuft den Rest. Nur an Regentagen fährt er ganz hoch. Warum?"}
-{"id": 8, "prompt": "Wie gewinnt ein neuer Handyvertrag Kunden in einem gesättigten Markt?"}
-{"id": 9, "prompt": "Wie bringt man Menschen dazu, Treppe statt Aufzug zu nehmen?"}
-{"id": 10, "prompt": "How could a hospital reduce no-show appointments?"}
-{"id": 11, "prompt": "Wofür kann man ein altes Smartphone noch nutzen?"}
-{"id": 12, "prompt": "Wie senkt man Einsamkeit bei älteren Menschen in Großstädten?"}
-{"id": 13, "prompt": "Wie vermeidet man Staus vor Schulen am Morgen?"}
-{"id": 14, "prompt": "What could a restaurant learn from an airline?"}
-{"id": 15, "prompt": "Finde eine Geschäftsidee rund um das Thema Älterwerden auf dem Land.", "category": "business"}
-{"id": 16, "prompt": "Welche Geschäftsidee steckt in der Tatsache, dass viele Handwerksbetriebe keine Nachfolger finden?", "category": "business"}
-{"id": 17, "prompt": "Ich habe 2.000 € Startkapital und kann gut organisieren. Welche ungewöhnliche Geschäftsidee passt?", "category": "business"}
-{"id": 18, "prompt": "Welches Problem von Hundebesitzern in Großstädten ist noch nicht gut gelöst – und wie wird daraus ein Business?", "category": "business"}
-{"id": 19, "prompt": "Kombiniere die Trends Wärmepumpen und Fachkräftemangel zu einer Geschäftsidee.", "category": "business"}
-{"id": 20, "prompt": "What business could be built around the fact that most people never read the terms they agree to?", "category": "business"}
-{"id": 21, "prompt": "Eine Geschäftsidee für Menschen, die nach Deutschland umziehen und niemanden kennen?", "category": "business"}
-{"id": 22, "prompt": "Welche B2B-Idee ergibt sich daraus, dass Firmen ihre Büros nur noch an zwei Tagen pro Woche voll nutzen?", "category": "business"}
-{"id": 23, "prompt": "Find an unusual business idea in the wedding industry.", "category": "business"}
-{"id": 24, "prompt": "Welches Geschäft könnte man aus Abfall machen, den Supermärkte täglich produzieren?", "category": "business"}
+{"id": 0, "prompt": "Wofür kann man einen Ziegelstein noch nutzen?", "obvious": "Als Baumaterial, Türstopper, Beetumrandung oder Briefbeschwerer.", "category": "general"}
+{"id": 1, "prompt": "Wie reduziert man Lärm in einem Großraumbüro ohne Umbau?", "obvious": "Kopfhörer, Ruhezonen und Teppiche bzw. Akustikpaneele.", "category": "general"}
+{"id": 2, "prompt": "Wie kann eine Bibliothek im Jahr 2030 relevant bleiben?", "obvious": "Mehr digitale Medien, E-Books und Veranstaltungen anbieten.", "category": "general"}
+{"id": 3, "prompt": "Ein Fitnessstudio verliert im Sommer Mitglieder. Was tun?", "obvious": "Sommerrabatte, Outdoor-Kurse und flexible Kündigungsmöglichkeiten.", "category": "general"}
+{"id": 4, "prompt": "Wie verteilt man Medikamente in abgelegenen Dörfern?", "obvious": "Lieferung per Fahrzeug oder Drohne und Versand per Apotheke.", "category": "general"}
+{"id": 5, "prompt": "Was kann ein Bauer von einem Software-Team lernen?", "obvious": "Agile Planung, Teamarbeit und digitale Tools nutzen.", "category": "general"}
+{"id": 6, "prompt": "Wie macht man Steuererklärungen weniger lästig?", "obvious": "Bessere Steuersoftware, vorausgefüllte Formulare und Steuerberater.", "category": "general"}
+{"id": 7, "prompt": "Ein Mann wohnt im 10. Stock, fährt aber nur bis zum 7. und läuft den Rest. Nur an Regentagen fährt er ganz hoch. Warum?", "obvious": "Er möchte sich mehr bewegen und nimmt deshalb die Treppe.", "category": "general", "kind": "raetsel"}
+{"id": 8, "prompt": "Wie gewinnt ein neuer Handyvertrag Kunden in einem gesättigten Markt?", "obvious": "Günstigere Preise, mehr Datenvolumen und Werbeaktionen.", "category": "general"}
+{"id": 9, "prompt": "Wie bringt man Menschen dazu, Treppe statt Aufzug zu nehmen?", "obvious": "Schilder und Plakate, die zur Treppe motivieren.", "category": "general"}
+{"id": 10, "prompt": "How could a hospital reduce no-show appointments?", "obvious": "Send appointment reminders by SMS or email and charge a no-show fee.", "category": "general"}
+{"id": 11, "prompt": "Wofür kann man ein altes Smartphone noch nutzen?", "obvious": "Als Wecker, Musikplayer oder Navigationsgerät weiterverwenden oder verkaufen.", "category": "general"}
+{"id": 12, "prompt": "Wie senkt man Einsamkeit bei älteren Menschen in Großstädten?", "obvious": "Seniorentreffs, Besuchsdienste und Videotelefonie.", "category": "general"}
+{"id": 13, "prompt": "Wie vermeidet man Staus vor Schulen am Morgen?", "obvious": "Eltern sollen zu Fuß gehen oder Fahrgemeinschaften bilden.", "category": "general"}
+{"id": 14, "prompt": "What could a restaurant learn from an airline?", "obvious": "Better reservation systems and loyalty programs.", "category": "general"}
+{"id": 15, "prompt": "Finde eine Geschäftsidee rund um das Thema Älterwerden auf dem Land.", "category": "business", "obvious": "Pflegedienst oder Lieferservice für ältere Menschen auf dem Land."}
+{"id": 16, "prompt": "Welche Geschäftsidee steckt in der Tatsache, dass viele Handwerksbetriebe keine Nachfolger finden?", "category": "business", "obvious": "Eine Plattform, die Betriebe mit Nachfolgern zusammenbringt."}
+{"id": 17, "prompt": "Ich habe 2.000 € Startkapital und kann gut organisieren. Welche ungewöhnliche Geschäftsidee passt?", "category": "business", "obvious": "Eine Eventagentur oder ein Online-Shop."}
+{"id": 18, "prompt": "Welches Problem von Hundebesitzern in Großstädten ist noch nicht gut gelöst – und wie wird daraus ein Business?", "category": "business", "obvious": "Hundesitting oder Gassi-Service per App."}
+{"id": 19, "prompt": "Kombiniere die Trends Wärmepumpen und Fachkräftemangel zu einer Geschäftsidee.", "category": "business", "obvious": "Eine Ausbildungs- oder Vermittlungsplattform für Wärmepumpen-Installateure."}
+{"id": 20, "prompt": "What business could be built around the fact that most people never read the terms they agree to?", "category": "business", "obvious": "An app that summarizes terms and conditions."}
+{"id": 21, "prompt": "Eine Geschäftsidee für Menschen, die nach Deutschland umziehen und niemanden kennen?", "category": "business", "obvious": "Eine App oder ein Netzwerk, um neue Kontakte und Freunde zu finden."}
+{"id": 22, "prompt": "Welche B2B-Idee ergibt sich daraus, dass Firmen ihre Büros nur noch an zwei Tagen pro Woche voll nutzen?", "category": "business", "obvious": "Leere Büroflächen tageweise an andere Firmen vermieten."}
+{"id": 23, "prompt": "Find an unusual business idea in the wedding industry.", "category": "business", "obvious": "A wedding planning app or marketplace for vendors."}
+{"id": 24, "prompt": "Welches Geschäft könnte man aus Abfall machen, den Supermärkte täglich produzieren?", "category": "business", "obvious": "Lebensmittel retten und günstig verkaufen oder an Tafeln spenden."}

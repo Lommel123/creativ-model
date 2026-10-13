@@ -42,14 +42,20 @@ def chat(text):
 
 
 @torch.no_grad()
-def score(prompts, bs=8):
+def generate(prompts, max_new_tokens, bs):
     out = []
     for i in range(0, len(prompts), bs):
         enc = tok([chat(p) for p in prompts[i:i + bs]], return_tensors="pt", padding=True).to(model.device)
-        gen = model.generate(**enc, max_new_tokens=4, do_sample=False, pad_token_id=tok.pad_token_id)
-        for g in gen[:, enc.input_ids.shape[1]:]:
-            m = re.search(r"\d+", tok.decode(g, skip_special_tokens=True))
-            out.append(min(10, int(m.group())) if m else None)   # None = unlesbar
+        gen = model.generate(**enc, max_new_tokens=max_new_tokens, do_sample=False, pad_token_id=tok.pad_token_id)
+        out += [tok.decode(g, skip_special_tokens=True).strip() for g in gen[:, enc.input_ids.shape[1]:]]
+    return out
+
+
+def score(prompts, bs=8):
+    out = []
+    for t in generate(prompts, 4, bs):
+        m = re.search(r"\d+", t)
+        out.append(min(10, int(m.group())) if m else None)   # None = unlesbar
     return out
 
 
@@ -65,7 +71,10 @@ try:
             continue
         req = json.loads(line)
         try:
-            send({"scores": score(req["prompts"])})
+            if req.get("mode") == "text":   # freie Textantworten (Zusammenfassung, A/B-Urteil)
+                send({"texts": generate(req["prompts"], int(req.get("max_new_tokens", 64)), int(req.get("bs", 8)))})
+            else:
+                send({"scores": score(req["prompts"])})
         except Exception as e:  # Fehler melden statt still zu sterben
             send({"error": f"{type(e).__name__}: {e}"})
 except (KeyboardInterrupt, BrokenPipeError):
