@@ -16,7 +16,8 @@ Ziel: einem Open-Source-LLM **die Methode** des Out-of-the-Box-Denkens beibringe
 |---|---|---|---|---|
 | 1 Prozess lernen | `01_sft.ipynb` | `data/sft.jsonl` + `sft_val.jsonl` | Denkprozess imitieren, Prüfset gegen Auswendiglernen | ~1,5–2,5 h |
 | 2 Selbst erfinden | `02_grpo.ipynb` (Input: `adapter_sft` **oder** vorheriger Stufe-2-Lauf → setzt am neuesten Checkpoint fort) | `data/grpo_prompts.jsonl` (nur Fragen) | Reinforcement Learning: Belohnung für originell **und** funktionsfähig | 1 Session ≤10,5 h, Ziel 200 Schritte |
-| 3 Transfer-Test | `03_eval.ipynb` | `eval/` | Basis vs. trainiert auf allgemeinen und Business-Fragen, GGUF-Export | ~1–2 h |
+| 3 Transfer-Test | `03_eval.ipynb` | `eval/` | Basis vs. trainiert auf allgemeinen und Business-Fragen | ~3,5 h |
+| 4 Export | `04_gguf_export.ipynb` | Input: GRPO-Lauf (+ optional Eval-Lauf) | LoRA-GGUF (immer) + Komplett-GGUF q4_k_m (Zwischendateien in /tmp) · optional Konfidenzintervalle der Eval | ~1 h |
 
 ## Stufe 2 in einer Session
 Mit 14B auf T4 x2 ist die Textgenerierung ~75 % der Schrittzeit. Ziel: **200 Schritte in einer ~11-h-Session**.
