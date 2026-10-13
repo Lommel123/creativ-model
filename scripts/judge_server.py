@@ -49,7 +49,7 @@ def score(prompts, bs=8):
         gen = model.generate(**enc, max_new_tokens=4, do_sample=False, pad_token_id=tok.pad_token_id)
         for g in gen[:, enc.input_ids.shape[1]:]:
             m = re.search(r"\d+", tok.decode(g, skip_special_tokens=True))
-            out.append(min(10, int(m.group())) if m else 0)
+            out.append(min(10, int(m.group())) if m else None)   # None = unlesbar
     return out
 
 
@@ -59,11 +59,14 @@ def send(obj):
 
 
 send({"ready": True})
-for line in sys.stdin:
-    if not line.strip():
-        continue
-    req = json.loads(line)
-    try:
-        send({"scores": score(req["prompts"])})
-    except Exception as e:  # Fehler melden statt still zu sterben
-        send({"error": f"{type(e).__name__}: {e}"})
+try:
+    for line in sys.stdin:
+        if not line.strip():
+            continue
+        req = json.loads(line)
+        try:
+            send({"scores": score(req["prompts"])})
+        except Exception as e:  # Fehler melden statt still zu sterben
+            send({"error": f"{type(e).__name__}: {e}"})
+except (KeyboardInterrupt, BrokenPipeError):
+    pass  # normales Beenden durch den Hauptprozess

@@ -37,7 +37,7 @@ class Judge:
         return msg
 
     def raw(self, prompts):
-        """Liste fertiger Nutzernachrichten -> Liste ganzer Zahlen 0..10."""
+        """Liste fertiger Nutzernachrichten -> Liste ganzer Zahlen 0..10 (None = unlesbare Judge-Antwort)."""
         self.p.stdin.write(json.dumps({"prompts": prompts}, ensure_ascii=False) + "\n")
         self.p.stdin.flush()
         return self._read()["scores"]
@@ -45,7 +45,7 @@ class Judge:
     def validity(self, questions, ideas):
         """Funktionsfähigkeit 0..1 für (Problem, Idee)-Paare."""
         prompts = [JUDGE_PROMPT.format(q=q, idea=d[:1200]) for q, d in zip(questions, ideas)]
-        return [s / 10 for s in self.raw(prompts)]
+        return [s / 10 if s is not None else 0.0 for s in self.raw(prompts)]   # Training: unlesbar = 0 wie bisher
 
     def close(self):
         if self.p.poll() is None:
